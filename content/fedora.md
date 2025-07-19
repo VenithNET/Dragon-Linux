@@ -1,21 +1,21 @@
 ---
-title: Fedora Asahi Remix
+title: Ubuntu Dragon Remix
 date:  "2025-04-15T11:27:00-04:00"
 draft: false
-body_class: "landing fedora"
+body_class: "landing dragon"
 layout: landing
 ---
 <section id="eye-catch">
     <div>
         <div>
             <p>Introducing</p>
-            <h1>Fedora Asahi Remix</h1>
-            <p>The most polished Linux® for Apple Silicon Macs.</p>
-            <h2>Install from macOS</h2>
+            <h1>Ubuntu Dragon Remix</h1>
+            <p>The most Dragonified Linux® to exist.</p>
+            <pre><a href="https://sourceforge.net/projects/sujix-linux/files/latest/download"><code id="curl">Download</code></a></pre>
             <pre><code id="curl">curl https://alx.sh | sh</code> <a id="copy-button" href="#"><i class="fa fa-clipboard"></i></code></a></pre>
         </div>
         <div>
-            <img src="/img/far_landing/far_laptop.svg" alt="Fedora Asahi Remix on a laptop">
+            <img src="/img/merge/desktop.png" alt="Fedora Asahi Remix on a laptop">
         </div>
     </div>
 </section>

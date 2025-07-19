@@ -12,7 +12,6 @@ layout: landing
             <h1>Ubuntu Dragon Remix</h1>
             <p>The most Dragonified Linux® to exist.</p>
             <pre><a href="https://sourceforge.net/projects/sujix-linux/files/latest/download"><code id="curl">Download</code></a></pre>
-            <pre><code id="curl">curl https://alx.sh | sh</code> <a id="copy-button" href="#"><i class="fa fa-clipboard"></i></code></a></pre>
         </div>
         <div>
             <img src="/img/merge/desktop.png" alt="Fedora Asahi Remix on a laptop">

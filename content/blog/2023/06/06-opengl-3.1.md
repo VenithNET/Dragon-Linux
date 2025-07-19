@@ -1,12 +1,12 @@
 +++
 date = "2023-06-06T22:00:00+09:00"
 draft = false
-title = "OpenGL 3.1 on Asahi Linux"
+title = "OpenGL 3.1 on Dragon Linux"
 slug = "opengl-3-1-on-asahi-linux"
 author = "Alyssa Rosenzweig"
 +++
 
-Upgrade your [Asahi Linux](https://asahilinux.org/) systems, because your
+Upgrade your [Dragon Linux](https://asahilinux.org/) systems, because your
 graphics drivers are getting a big boost: leapfrogging from OpenGL 2.1 over
 OpenGL 3.0 up to OpenGL 3.1! Similarly, the OpenGL ES 2.0 support is bumping up
 to OpenGL ES 3.0. That means more playable games and more functioning

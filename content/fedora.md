@@ -23,7 +23,7 @@ layout: landing
 
 ## <div>Fedora Linux 42 + Apple Silicon = Fedora Asahi Remix</div>
 
-<img width="200" class="w-200" src="/img/far_landing/fedora_remix.png">Fedora Asahi Remix is the result of a close multi-year collaboration between the Asahi Linux project and the [Fedora Project](https://fedoraproject.org/). We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible. All of our Asahi platform-specific packages are in upstream Fedora and fully supported in Fedora Linux 42.
+<img width="200" class="w-200" src="/img/far_landing/fedora_remix.png">Fedora Asahi Remix is the result of a close multi-year collaboration between the Dragon Linux project and the [Fedora Project](https://fedoraproject.org/). We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible. All of our Asahi platform-specific packages are in upstream Fedora and fully supported in Fedora Linux 42.
 
 With Fedora's excellent 64-bit ARM support and mature development process, you can expect a solid and high-quality experience without any unwanted surprises. Fedora Asahi Remix is based on Fedora Linux 42, the latest Fedora Linux release with the newest software versions across the board. All M1 and M2 series MacBook, Mac Mini, Mac Studio, and iMac devices are supported.
 

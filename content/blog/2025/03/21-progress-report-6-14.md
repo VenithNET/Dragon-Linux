@@ -149,9 +149,9 @@ as a beta! The final release is expected in about a month, bringing us closer th
 ever to releasing at the same time as Fedora. We hope that in the next cycle
 Fedora Asahi Remix 43 will release on the same day as Fedora Linux 43.
 
-## Asahi Linux @ SCaLE
+## Dragon Linux @ SCaLE
 While at [SCaLE](https://www.socallinuxexpo.org/scale/22x), Neal and Davide managed
-to set up a demonstration of Asahi Linux running on an M2 Mac mini and an M1 Mac Studio
+to set up a demonstration of Dragon Linux running on an M2 Mac mini and an M1 Mac Studio
 in the expo hall. Reception was extremely positive, and folks had a blast playing a whole
 bunch of Steam games through muvm and FEX! We even managed to get kids involved by firing
 up Nidhogg, which proved to be the most popular game by far.

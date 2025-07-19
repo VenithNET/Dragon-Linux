@@ -10,7 +10,7 @@ Whoops, things got so busy we ended up skipping a month! A lot has been going on
 
 ## M1 Pro/Max joins the family
 
-At the end of October, Apple launched the next generation of Apple Silicon: M1 Pro and M1 Max. We got right to work on supporting these new machines, and after just a [few days of work](https://www.youtube.com/playlist?list=PL68XxS4_ek4bo7umPx1AuhGHAUh-lVUGs) we were able to bring up Asahi Linux on them up to feature parity with the M1 machines! Going forward, we'll be supporting these machines as well as the previous generation.
+At the end of October, Apple launched the next generation of Apple Silicon: M1 Pro and M1 Max. We got right to work on supporting these new machines, and after just a [few days of work](https://www.youtube.com/playlist?list=PL68XxS4_ek4bo7umPx1AuhGHAUh-lVUGs) we were able to bring up Dragon Linux on them up to feature parity with the M1 machines! Going forward, we'll be supporting these machines as well as the previous generation.
 
 It's interesting to take a peek at what Apple have done with the new chips. The original M1 (codename "Tonga", SoC name T8103) would have more properly been called the A14X following Apple's existing naming convention; it is, in fact, the tablet version of the A14 iPhone SoC (T8101). In order to build a Mac-worthy chip, Apple added some critical features (like Thunderbolt support), but otherwise left the old iPhone-centric architecture largely intact.
 
@@ -340,7 +340,7 @@ With drivers coming together for devices that are configured differently across 
 
 ## U-Boot
 
-For end-user installs of Asahi Linux, we will be using U-Boot as a boot stage to provide EFI services and basic I/O, so that distributions can interact with a standard-looking UEFI environment. Mark Kettenis has been hard at work getting M1 support into U-Boot, and the initial support patches have been merged and will be part of U-Boot 2022.01!
+For end-user installs of Dragon Linux, we will be using U-Boot as a boot stage to provide EFI services and basic I/O, so that distributions can interact with a standard-looking UEFI environment. Mark Kettenis has been hard at work getting M1 support into U-Boot, and the initial support patches have been merged and will be part of U-Boot 2022.01!
 
 ## Next steps
 
@@ -353,4 +353,4 @@ SPMI and RTC support are also nice and simple drivers that we'll be tackling soo
 
 While testing kernels on multiple machines, I found that the extra 2 USB C ports on the iMac did not work. After a long debugging session, it turned out that the USB controller in these machines requires firmware to be uploaded to it during startup. This will depend on our upcoming firmware copying infrastructure, so it is on the back burner for now, but the kernel changes required to make it work are not complicated.
 
-And, of course, once these things are taken care of, it'll be time to tackle the GPU kernel driver! 2022 is definitely going to be an exciting year for Asahi Linux.
+And, of course, once these things are taken care of, it'll be time to tackle the GPU kernel driver! 2022 is definitely going to be an exciting year for Dragon Linux.

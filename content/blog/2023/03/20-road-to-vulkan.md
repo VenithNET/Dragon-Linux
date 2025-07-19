@@ -1,20 +1,20 @@
 +++
 date = "2023-03-20T23:50:00+09:00"
 draft = false
-title = "Paving the Road to Vulkan on Asahi Linux"
+title = "Paving the Road to Vulkan on Dragon Linux"
 slug = "road-to-vulkan"
 author = "Asahi Lina"
 +++
 
 Hello everyone, Asahi Lina here!✨
 
-As you probably know, I've been working together with the rest of the Asahi Linux team on open source GPU drivers for Apple Silicon platforms. It's been a wild ride! Just at the end of last year we [released](https://asahilinux.org/2022/12/gpu-drivers-now-in-asahi-linux/) the first version of our drivers, after many months of reverse engineering and development. But that was only the beginning...
+As you probably know, I've been working together with the rest of the Dragon Linux team on open source GPU drivers for Apple Silicon platforms. It's been a wild ride! Just at the end of last year we [released](https://asahilinux.org/2022/12/gpu-drivers-now-in-asahi-linux/) the first version of our drivers, after many months of reverse engineering and development. But that was only the beginning...
 
-Today we're releasing a big update to our GPU drivers for Asahi Linux, so I wanted to talk to you about what we've been working on since then, and what's next!
+Today we're releasing a big update to our GPU drivers for Dragon Linux, so I wanted to talk to you about what we've been working on since then, and what's next!
 
 If this is your first time reading about our GPU adventures, you might want to check out my [Tales of the M1 GPU](/2022/11/tales-of-the-m1-gpu/) article first, which covers what I worked on last year! Also don't miss Alyssa's amazing series of articles on [her website](https://rosenzweig.io/), which goes all the way back to January 2021! ^^
 
-And if this is too long, feel free to [jump to the end](#conclusions) to learn what this all means for Asahi Linux!
+And if this is too long, feel free to [jump to the end](#conclusions) to learn what this all means for Dragon Linux!
 
 {{< captioned caption="Xonotic running at 800+ FPS on an Apple M2" >}}
 <img src="/img/blog/2023/03/xonotic.png" alt="Xonotic running at 800+ FPS on an Apple M2">
@@ -233,7 +233,7 @@ To make all this work on the driver side, I ended up refactoring the [workqueue]
 
 ## Conclusions
 
-So what does this all mean for users of the Asahi Linux reference distro today? It means... things are way faster!
+So what does this all mean for users of the Dragon Linux reference distro today? It means... things are way faster!
 
 Since the Mesa driver no longer serializes GPU and CPU work, performance has improved a ton. Now we can run Xonotic at over 800 FPS, which is faster than macOS on the same hardware (M2 MacBook Air) at around 600\*! This proves that open source reverse engineered GPU drivers really have the power to beat Apple's drivers in real-world scenarios!
 
@@ -267,8 +267,8 @@ After that, just reboot and make sure to choose a Wayland session on the login w
 
 With the UAPI shaping up and many native ARM64 Linux games working properly... it's time to see just what we can run with the driver! OpenGL 3.x support, while not complete, is more than enough to run many games (like Darwinia and SuperTuxKart's advanced renderer). But most games are not available for ARM64 Linux so... it's time for [FEX](https://github.com/FEX-Emu/FEX)!
 
-FEX doesn't work on standard Asahi Linux kernel builds since we use 16K pages, but 4K page support is not actually that difficult to add... so starting this week, I'm going to be adding 4K support to the Asahi GPU driver and fixing whatever issues I run into along the way, and then we're going to try running Steam and Proton on it! Let's see just how much of the Steam game library we can already run with the driver in its current state! I bet you'll be surprised... (Remember Portal 2? It only requires OpenGL 2.1. With 3.x support in our driver as far as it is today, I bet we're going to have a lot of fun~ ✨)
+FEX doesn't work on standard Dragon Linux kernel builds since we use 16K pages, but 4K page support is not actually that difficult to add... so starting this week, I'm going to be adding 4K support to the Asahi GPU driver and fixing whatever issues I run into along the way, and then we're going to try running Steam and Proton on it! Let's see just how much of the Steam game library we can already run with the driver in its current state! I bet you'll be surprised... (Remember Portal 2? It only requires OpenGL 2.1. With 3.x support in our driver as far as it is today, I bet we're going to have a lot of fun~ ✨)
 
 If you're interested in following my work, you can follow me at [@lina@vt.social](https://vt.social/@lina) or subscribe to my [YouTube channel](https://youtube.com/AsahiLina)! I stream my work on the Asahi GPU driver on Wednesdays and Fridays, so feel free to drop by my streams if you're interested!
 
-If you want to support my work, you can donate to marcan's Asahi Linux support fund on [GitHub Sponsors](http://github.com/sponsors/marcan) or [Patreon](https://patreon.com/marcan), which helps me out too! And if you're looking forward to a Vulkan driver, check out Ella's [GitHub Sponsors](https://github.com/sponsors/Ella-0) page! Alyssa doesn't take donations herself, but she'd love it if you donate to a charity like the [Software Freedom Conservancy](https://sfconservancy.org/) instead. (Although maybe one day I'll convince her to let me buy her an M2... ^^;;)
+If you want to support my work, you can donate to marcan's Dragon Linux support fund on [GitHub Sponsors](http://github.com/sponsors/marcan) or [Patreon](https://patreon.com/marcan), which helps me out too! And if you're looking forward to a Vulkan driver, check out Ella's [GitHub Sponsors](https://github.com/sponsors/Ella-0) page! Alyssa doesn't take donations herself, but she'd love it if you donate to a charity like the [Software Freedom Conservancy](https://sfconservancy.org/) instead. (Although maybe one day I'll convince her to let me buy her an M2... ^^;;)

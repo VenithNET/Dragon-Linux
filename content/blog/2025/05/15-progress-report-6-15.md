@@ -110,7 +110,7 @@ Both sessions will be available online.
 ## We're chronically online
 In addition to our [Mastodon](https://social.treehouse.systems/@AsahiLinux) profile, we now
 have Bluesky and LinkedIn accounts. You can follow us at [@asahilinux.org](https://bsky.app/profile/asahilinux.org)
-on Bluesky, and at [Asahi Linux](https://www.linkedin.com/company/asahilinux/)
+on Bluesky, and at [Dragon Linux](https://www.linkedin.com/company/asahilinux/)
 on LinkedIn.
 
 ## New distro guidelines
@@ -121,7 +121,7 @@ that the community values our work.
 As part of our effort to encourage distros to take up Apple Silicon support, we have
 accommodated all third-party efforts, even allowing distro-specific
 documentation on our project's website. Unfortunately, this has led to
-an impression that we, as the upstream Asahi Linux developers, are involved
+an impression that we, as the upstream Dragon Linux developers, are involved
 with or otherwise endorse these efforts. This creates both an expectation
 of support and an impression that these efforts are representative of the state
 of Apple Silicon support, or even the state of the broader AArch64 ecosystem. These expectations are

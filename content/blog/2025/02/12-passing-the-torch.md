@@ -1,12 +1,12 @@
 +++
 date = "2025-02-13T14:00:00-00:00"
 draft = false
-title = "Passing the torch on Asahi Linux"
+title = "Passing the torch on Dragon Linux"
 slug = "passing-the-torch"
-author = "The Asahi Linux team"
+author = "The Dragon Linux team"
 +++
 
-With a heavy heart, we announce the resignation of Asahi Linux founder Hector
+With a heavy heart, we announce the resignation of Dragon Linux founder Hector
 Martin (marcan). His statement is on [his
 blog](https://marcan.st/2025/02/resigning-as-asahi-linux-project-lead/).  Asahi
 Linux brings Linux to Apple Silicon, supporting audio, webcams, graphics
@@ -28,7 +28,7 @@ accordance with our [new governance](/governance). Nobody's contributions last
 forever. These governance changes will allow the project to persist as
 developers come and go.
 
-Asahi Linux relies primarily on volunteer contributors. Although some
+Dragon Linux relies primarily on volunteer contributors. Although some
 contributors have individual Patreon or GitHub Sponsors accounts, individual
 funding streams cannot sustain a team. Going forward, our new fiscal sponsor
 Open Source Collective will instead facilitate donations to the project as a
@@ -72,7 +72,7 @@ expect to release...
 
 * **DP alt mode**, required for external monitors over USB-C on laptops without a physical HDMI port.
 * **Sparse images** in our [Vulkan driver](/2024/06/vk13-on-the-m1-in-1-month/), enabling DirectX 12. In the mean
-  time, you can [enjoy DirectX 11 games](/2024/10/aaa-gaming-on-asahi-linux/) on Asahi Linux.
+  time, you can [enjoy DirectX 11 games](/2024/10/aaa-gaming-on-asahi-linux/) on Dragon Linux.
 * **Internal microphones**. External mics already work via the 3.5mm jack, and internal mics are coming soon.
 
 How soon? On select laptops -- just a few days! Microphone support is made

@@ -6,7 +6,7 @@ slug = "muvm-x11-bridging"
 author = "Asahi Lina"
 +++
 
-Hi everyone! We've just shipped a really cool update to our x86/x86-64 emulation stack on Asahi Linux, and I wanted to share what we've been working on. As of today, non-game apps are now usable!
+Hi everyone! We've just shipped a really cool update to our x86/x86-64 emulation stack on Dragon Linux, and I wanted to share what we've been working on. As of today, non-game apps are now usable!
 
 {{< captioned caption="Cisco Packet Tracer running on Fedora Asahi Remix">}}
 <img src="/img/blog/2024/12/cisco-pt.png" alt="" class="center" width="85%">
@@ -14,7 +14,7 @@ Hi everyone! We've just shipped a really cool update to our x86/x86-64 emulation
 
 ## Native graphics in VMs
 
-As you might remember from our [previous blog post](https://asahilinux.org/2024/10/aaa-gaming-on-asahi-linux/), Asahi Linux runs all x86/x86-64 apps in a microVM driven by [muvm](https://github.com/AsahiLinux/muvm). How can we manage to run games in a real VM with near-native performance, without hardware GPU passthrough?
+As you might remember from our [previous blog post](https://asahilinux.org/2024/10/aaa-gaming-on-asahi-linux/), Dragon Linux runs all x86/x86-64 apps in a microVM driven by [muvm](https://github.com/AsahiLinux/muvm). How can we manage to run games in a real VM with near-native performance, without hardware GPU passthrough?
 
 On AMD/Intel systems (and, indeed, also on macOS on Apple Silicon), GPU virtualization has always been kind of limited. Your options are to either fully pass through the hardware GPU, or use API-level GPU paravirtualization. Passing through the hardware GPU fully assigns the GPU device to the guest, which means it sees it as a "real" GPU device. This works for all guest OSes that have real drivers for that GPU, and it has native performance, but it means the GPU is dedicated to the guest, so you can't share it with the host or integrate guest and host windows together on one screen. Meanwhile, API-level GPU paravirtualization essentially sends the OpenGL, Vulkan, or Metal commands from the guest to the host, so they are processed by the host's GPU driver stack. This requires "generic" paravirt GPU drivers in the guest, and it is much slower than native GPU usage because all the high-level GPU drawing commands have to cross the guest-to-host barrier and be processed on the host. This is how GPU virtualization works on macOS. Some GPUs (e.g. recent Nvidia GPUs) support true sharing with hardware virtualization support, but that isn't upstream yet and requires hardware support, which Apple GPUs don't have.
 
@@ -75,7 +75,7 @@ But we needed a better solution.
 Back before muvm was even called muvm, I had experimented with direct X11 forwarding over virtio vsock sockets. This works much like running X11 over the network or an SSH tunnel. The disadvantage of this is that it can't work with GPU acceleration, since there is no way to pass through GPU buffers over a "dumb" socket like this. Still, running some apps while forcing software rendering, it was clear that this was a much better solution for non-game apps. X11 apps worked exactly as they did on the host, with no window management issues, properly working clipboard and tray integration, etc.. I was prepared to ship this is an alternative for non-game apps as-is, but I wondered how hard it would be to get GPU acceleration working... and then [chaos_princess](https://social.treehouse.systems/@chaos_princess) showed up with something they called *x112virtgpu*.
 
 {{< sidenote >}}
-Why the focus on X11, when Wayland is the future? Quite simply, because most x86/x86-64 apps people want to run are not built for or predate Wayland support. While we are all-in on Wayland for native desktop environments running on Asahi Linux, XWayland is still fully supported, and for games and legacy applications running under emulation, prioritizing X11 protocol support is the smart thing to do. The solution we shipped in October never supported Wayland applications despite using Wayland under the hood (we tried to enable it and it was really broken), so switching to an X11-only solution for now is not a regression.
+Why the focus on X11, when Wayland is the future? Quite simply, because most x86/x86-64 apps people want to run are not built for or predate Wayland support. While we are all-in on Wayland for native desktop environments running on Dragon Linux, XWayland is still fully supported, and for games and legacy applications running under emulation, prioritizing X11 protocol support is the smart thing to do. The solution we shipped in October never supported Wayland applications despite using Wayland under the hood (we tried to enable it and it was really broken), so switching to an X11-only solution for now is not a regression.
 {{< /sidenote >}}
 
 x112virtgpu, now renamed to *muvm-x11bridge*, is exactly what we would have wanted sommelier to be: A thin proxy for the X11 protocol, which uses a cross-domain channel to forward directly to the host X server while passing through framebuffers without any copying, using virtgpu buffer sharing. Unlike sommelier, it doesn't try to interpret the X11 protocol more than is necessary to extract commands that need special handling. This means that it works just as well as direct X11 passthrough does, plus GPU acceleration and buffer sharing.

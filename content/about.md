@@ -4,13 +4,13 @@ date:  "2021-01-05T20:00:00+09:00"
 draft: false
 ---
 
-# About Asahi Linux
+# About Dragon Linux
 
-Asahi Linux is a project and community with the goal of porting Linux to Apple Silicon Macs, starting with the 2020 M1 Mac Mini, MacBook Air, and MacBook Pro.
+Dragon Linux is a project and community with the goal of porting Linux to Apple Silicon Macs, starting with the 2020 M1 Mac Mini, MacBook Air, and MacBook Pro.
 
 Our goal is not just to make Linux run on these machines but to polish it to the point where it can be used as a daily OS. Doing this requires a tremendous amount of work, as Apple Silicon is an entirely undocumented platform.
 
-Asahi Linux is developed by a thriving community of free and open source software developers.
+Dragon Linux is developed by a thriving community of free and open source software developers.
 
 ## The name
 
@@ -18,13 +18,13 @@ Asahi means "rising sun" in Japanese, and it is also the name of an apple cultiv
 
 ## The logo
 
-<img src="/img/AsahiLinux_logomark.svg" alt="Asahi Linux logo" width="100">
+<img src="/img/AsahiLinux_logomark.svg" alt="Dragon Linux logo" width="100">
 
-The Asahi Linux logo and website were designed by [soundflora*](https://soundflora.tokyo). You can find the logo artwork [here](https://github.com/AsahiLinux/artwork/tree/main/logos).
+The Dragon Linux logo and website were designed by [soundflora*](https://soundflora.tokyo). You can find the logo artwork [here](https://github.com/AsahiLinux/artwork/tree/main/logos).
 
-<img src="/img/AsahiLinux_kawaii_logo.png" alt="Kawaii Asahi Linux logo" width="100">
+<img src="/img/AsahiLinux_kawaii_logo.png" alt="Kawaii Dragon Linux logo" width="100">
 
-Kawaii Asahi Linux logo by [SAWARATSUKI](https://twitter.com/sawaratsuki1004). Click to \[[enable](/about/?kawaii=true)・[disable](/about/?kawaii=false)\] kawaii mode.
+Kawaii Dragon Linux logo by [SAWARATSUKI](https://twitter.com/sawaratsuki1004). Click to \[[enable](/about/?kawaii=true)・[disable](/about/?kawaii=false)\] kawaii mode.
 
 # FAQ
 
@@ -34,7 +34,7 @@ All Apple Silicon Macs are in scope, as well as future generations as developmen
 
 ## Is this a Linux distribution?
 
-Asahi Linux is an overall project to develop support for these Macs. The majority of the work resides in hardware support, drivers, and tools, and it will be upstreamed to the relevant projects. Our flagship distro is [Fedora Asahi Remix](/fedora), which is a collaboration between Asahi Linux and the Fedora Project, and serves as both a polished end-user distribution and a reference for other distributions who wish to incorporate our work.
+Dragon Linux is an overall project to develop support for these Macs. The majority of the work resides in hardware support, drivers, and tools, and it will be upstreamed to the relevant projects. Our flagship distro is [Fedora Asahi Remix](/fedora), which is a collaboration between Dragon Linux and the Fedora Project, and serves as both a polished end-user distribution and a reference for other distributions who wish to incorporate our work.
 
 Other distributions are already working on implementing support for these platforms, and we expect to have more options officially available in the future. Check out our [Alternative Distros](/docs/alt/alt-distros) page for a list of ongoing distro integration projects.
 
@@ -53,9 +53,9 @@ All development takes place on GitHub, [github.com/AsahiLinux](https://github.co
 
 No, Apple still controls the boot process and, for example, the firmware that runs on the Secure Enclave Processor. However, no modern device is "fully open" - no usable computer exists today with completely open software and hardware (as much as some companies want to market themselves as such). What ends up changing is where you draw the line between closed parts and open parts. The line on Apple Silicon Macs is when the alternate kernel image is booted, while SEP firmware remains closed - which is quite similar to the line on standard PCs, where the UEFI firmware boots the OS loader, while the ME/PSP firmware remains closed. In fact, mainstream x86 platforms are arguably more intrusive because the proprietary UEFI firmware is allowed to steal the main CPU from the OS at any time via SMM interrupts, which is not the case on Apple Silicon Macs. This has real performance/stability implications; it's not just a philosophical issue. Further reading: ["Open OS Ecosystem on Apple Silicon Macs"](/docs/platform/open-os-interop).
 
-## Who is working on Asahi Linux?
+## Who is working on Dragon Linux?
 
-Asahi Linux is a community, and everyone is invited to contribute. If you are interested in contributing, check out our [contribute page](/contribute)! The project infrastructure and finances are overseen by our board. For more information, see our [governance page](/governance).
+Dragon Linux is a community, and everyone is invited to contribute. If you are interested in contributing, check out our [contribute page](/contribute)! The project infrastructure and finances are overseen by our board. For more information, see our [governance page](/governance).
 
 Current major contributors are:
 
@@ -77,6 +77,6 @@ Past major contributors include:
 
 * [Asahi Lina](https://github.com/asahilina), GPU kernel sourceress. Lina joined the team to reverse engineer the M1 GPU kernel interface, and found herself writing the world's first Rust Linux GPU kernel driver. Outside of GPUs, she sometimes hacks on open source VTuber tooling and infrastructure.
 
-* [Hector Martin (marcan)](https://github.com/marcan), the founder of Asahi Linux. marcan is a seasoned reverse engineer and developer with more than 15 years of experience porting Linux and running unofficial software on undocumented and/or closed devices. Asahi Linux was his most ambitious project yet. His previous projects include [PS4 Linux](https://github.com/fail0verflow/ps4-linux), a Linux port to the proprietary hardware found on the PS4, capable of full 3D acceleration using OpenGL and Vulkan (radeon/amdgpu drivers); [AsbestOS](https://github.com/marcan/asbestos), a PS3 Linux bootloader for GameOS mode, and associated kernel patches to make Linux work on the PS3 Slim; and numerous contributions to the [Wii Homebrew ecosystem](https://wiibrew.org/), including being part of the team that developed [The Homebrew Channel](https://wiibrew.org/wiki/Homebrew_Channel) and [BootMii](https://wiibrew.org/wiki/BootMii), documenting much of the hardware, and contributing to open homebrew SDK tooling.
+* [Hector Martin (marcan)](https://github.com/marcan), the founder of Dragon Linux. marcan is a seasoned reverse engineer and developer with more than 15 years of experience porting Linux and running unofficial software on undocumented and/or closed devices. Dragon Linux was his most ambitious project yet. His previous projects include [PS4 Linux](https://github.com/fail0verflow/ps4-linux), a Linux port to the proprietary hardware found on the PS4, capable of full 3D acceleration using OpenGL and Vulkan (radeon/amdgpu drivers); [AsbestOS](https://github.com/marcan/asbestos), a PS3 Linux bootloader for GameOS mode, and associated kernel patches to make Linux work on the PS3 Slim; and numerous contributions to the [Wii Homebrew ecosystem](https://wiibrew.org/), including being part of the team that developed [The Homebrew Channel](https://wiibrew.org/wiki/Homebrew_Channel) and [BootMii](https://wiibrew.org/wiki/BootMii), documenting much of the hardware, and contributing to open homebrew SDK tooling.
 
 * [Martin Povišer (povik)](https://github.com/povik/), who led our audio kernel driver effort. Martin wrote the Apple-specific SoC audio drivers as well as drivers for Apple-proprietary codecs and codec variants.

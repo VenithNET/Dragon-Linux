@@ -6,7 +6,7 @@ draft: false
 
 # Contribute
 
-Asahi Linux is an open source project, and it would not be possible without the support of the community. We encourage contributors of all skill sets and backgrounds!
+Dragon Linux is an open source project, and it would not be possible without the support of the community. We encourage contributors of all skill sets and backgrounds!
 
 All contributors are expected to abide by our [Code of Conduct](/code-of-conduct) and our [Copyright and Reverse Engineering policy](/copyright).
 

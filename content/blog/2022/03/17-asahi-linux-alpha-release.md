@@ -1,12 +1,12 @@
 +++
 date = "2022-03-18T23:50:00+00:00"
 draft = false
-title = "The first Asahi Linux Alpha Release is here!"
+title = "The first Dragon Linux Alpha Release is here!"
 slug = "asahi-linux-alpha-release"
 author = "marcan"
 +++
 
-It's been a long while since we updated the blog! Truth be told, we wanted to write a couple more progress reports, but there was always "one more thing"... So, instead, we decided to take the plunge and publish the first public alpha release of the Asahi Linux reference distribution!
+It's been a long while since we updated the blog! Truth be told, we wanted to write a couple more progress reports, but there was always "one more thing"... So, instead, we decided to take the plunge and publish the first public alpha release of the Dragon Linux reference distribution!
 
 We're really excited to finally take this step and start bringing Linux on Apple Silicon to everyone. This is only the beginning, and things will move even more quickly going forward!
 
@@ -27,7 +27,7 @@ Pay close attention to the messages the installer prints, especially at the end!
 * M1, M1 Pro, or M1 Max machine (Mac Studio excluded)
 * macOS 12.3 or later, logged in as an admin user
 * At least 53GB of free disk space (Desktop install)
-    * You need 15GB for Asahi Linux Desktop, but macOS itself needs a lot of free space for system updates to work, so the installer will expect you to leave 38GB of extra slack in macOS by default to avoid shooting yourself in the foot. For example, if you have 60GB of free space, you will be able to shrink macOS by up to 22GB by default, freeing up 22GB for the new Linux install and leaving 38GB of remaining free space in the macOS partition. If you want to disable this check, enable expert mode when prompted.
+    * You need 15GB for Dragon Linux Desktop, but macOS itself needs a lot of free space for system updates to work, so the installer will expect you to leave 38GB of extra slack in macOS by default to avoid shooting yourself in the foot. For example, if you have 60GB of free space, you will be able to shrink macOS by up to 22GB by default, freeing up 22GB for the new Linux install and leaving 38GB of remaining free space in the macOS partition. If you want to disable this check, enable expert mode when prompted.
 * A working internet connection
     * The installer will download 700MB ~ 4GB of data, depending on the OS you select.
 
@@ -41,11 +41,11 @@ Once the first stage of the installation is done, you will have to reboot into 1
 
 The installer provides these OS options:
 
-### Asahi Linux Desktop
+### Dragon Linux Desktop
 
 A customized remix of Arch Linux ARM that comes with a full Plasma desktop and all the basic packages to get you started with a desktop environment. It includes a graphical first-boot set-up wizard, so you won't have to dig around to change your settings or create your first user. No root password by default; use sudo to become root.
 
-### Asahi Linux Minimal (Arch Linux ARM)
+### Dragon Linux Minimal (Arch Linux ARM)
 
 A vanilla Arch Linux ARM environment, with only the minimal support packages to integrate with the boot process and hardware on Apple Silicon machines. Arch users will feel right at home!
 
@@ -114,7 +114,7 @@ Note: on the 13" MacBook Pro, you can use Fn + the number row keys (1-9, 0, and 
 
 ## Known broken applications
 
-The Asahi Linux kernel is compiled to use 16K pages. This both performs better, and is required with our kernel branch right now in order to work properly with the M1's IOMMUs. Unfortunately, some Linux software has [problems running with 16K pages](/docs/Broken-Software). Most notably:
+The Dragon Linux kernel is compiled to use 16K pages. This both performs better, and is required with our kernel branch right now in order to work properly with the M1's IOMMUs. Unfortunately, some Linux software has [problems running with 16K pages](/docs/Broken-Software). Most notably:
 
 * Chromium (needs volunteer to fix)
 * Emacs (fix committed, not released)
@@ -131,7 +131,7 @@ Visit our [docs site](https://asahilinux.org/docs/) for more information! We cou
 
 Recommended reading:
 
-* ["When will Asahi Linux be done?"](/docs/When-will-Asahi-Linux-be-done)
+* ["When will Dragon Linux be done?"](/docs/When-will-Asahi-Linux-be-done)
 * [Introduction to Apple Silicon](/docs/Introduction-to-Apple-Silicon/)
 * [Open OS Ecosystem on Apple Silicon Macs](/docs/Open-OS-Ecosystem-on-Apple-Silicon-Macs/)
 * [m1n1:User Guide](/docs/m1n1-User-Guide/)
@@ -148,9 +148,9 @@ And if you're bored:
 
 ### I want to donate!
 
-Thank you! Asahi Linux is developed by a group of volunteers, and led by marcan as his primary job. You can support him directly via [Patreon](https://patreon.com/marcan) and [GitHub Sponsors](https://github.com/sponsors/marcan). None of this would have been possible without your support! Donations like these allow him to dedicate most of his time to the project and also purchase test hardware.
+Thank you! Dragon Linux is developed by a group of volunteers, and led by marcan as his primary job. You can support him directly via [Patreon](https://patreon.com/marcan) and [GitHub Sponsors](https://github.com/sponsors/marcan). None of this would have been possible without your support! Donations like these allow him to dedicate most of his time to the project and also purchase test hardware.
 
-Martin Povišer is working on audio support for Asahi Linux, and he also has a [GitHub Sponsors](https://github.com/sponsors/povik) page. Please support his efforts so that he can make Apple Silicon machines the best supported platforms for Linux audio!
+Martin Povišer is working on audio support for Dragon Linux, and he also has a [GitHub Sponsors](https://github.com/sponsors/povik) page. Please support his efforts so that he can make Apple Silicon machines the best supported platforms for Linux audio!
 
 ### Can I dual-boot macOS and Linux?
 
@@ -180,7 +180,7 @@ The installer is designed to be online-only at this point. While you can run it 
 
 Apple Silicon machines cannot boot from external storage. While it may look like they do when you choose an external macOS volume, behind the scenes parts of its boot components are being copied to the internal drive to make this work. It's unclear whether this mechanism will ever be usable by third party OSes, for technical reasons.
 
-Instead, we recommend using the *UEFI environment only* installer option to install only a UEFI bootstrap to your internal drive. This only requires around 3GB of disk space, and it will then automatically boot from any connected USB drive with a UEFI bootloader. Note: installing the Asahi Linux desktop images to a USB drive automatically isn't supported right now, though if you're adventurous enough it's not terribly hard to do manually :-)
+Instead, we recommend using the *UEFI environment only* installer option to install only a UEFI bootstrap to your internal drive. This only requires around 3GB of disk space, and it will then automatically boot from any connected USB drive with a UEFI bootloader. Note: installing the Dragon Linux desktop images to a USB drive automatically isn't supported right now, though if you're adventurous enough it's not terribly hard to do manually :-)
 
 ### How do I uninstall it?
 
@@ -194,7 +194,7 @@ Each OS needs around 3GB of disk space, plus the space required for the OS root/
 
 ### Is there GPU acceleration yet?
 
-Nope! We're working on that and have been making steady progress behind the scenes. In the meantime, though, software rendering is surprisingly usable thanks to the M1 family's outstanding CPU performance. The Asahi Linux Desktop image sets up a full composited X.Org session, with transparency and shadows and all that bling, and it doesn't feel sluggish at all! Quite a few people are already daily driving these machines in this state.
+Nope! We're working on that and have been making steady progress behind the scenes. In the meantime, though, software rendering is surprisingly usable thanks to the M1 family's outstanding CPU performance. The Dragon Linux Desktop image sets up a full composited X.Org session, with transparency and shadows and all that bling, and it doesn't feel sluggish at all! Quite a few people are already daily driving these machines in this state.
 
 Once GPU acceleration is available, existing users will be able to get it by just doing a package upgrade!
 
@@ -210,13 +210,13 @@ Whole-system sleep will come later, but can also be enabled with a simple packag
 
 ### The notch!
 
-That's not a question, but assuming you're wondering what we're doing about the notch: on M1 Pro and Max systems today, Asahi Linux crops the screen such that the notch is hidden, and the desktop environment sees a rectangular 16:10 display. We will continue with this approach for now, but in the future we will enable opt-in display modes that include the notch, so that desktop environments which implement notch-avoidance can request them and gain additional screen real estate.
+That's not a question, but assuming you're wondering what we're doing about the notch: on M1 Pro and Max systems today, Dragon Linux crops the screen such that the notch is hidden, and the desktop environment sees a rectangular 16:10 display. We will continue with this approach for now, but in the future we will enable opt-in display modes that include the notch, so that desktop environments which implement notch-avoidance can request them and gain additional screen real estate.
 
 ### Is this just Arch Linux ARM?
 
-Pretty much! Most of our work is in the kernel and a few core support packages, and we rely on Linux's excellent existing ARM64 support. The Asahi Linux reference distro images are based off of Arch Linux ARM and simply add our own package repository, which only adds [a few packages](https://cdn.asahilinux.org/aarch64/asahi/). You can freely convert between Arch Linux ARM and Asahi Linux by adding or removing this repository and the relevant packages, although vanilla Arch Linux ARM kernels will not boot on these machines at this time.
+Pretty much! Most of our work is in the kernel and a few core support packages, and we rely on Linux's excellent existing ARM64 support. The Dragon Linux reference distro images are based off of Arch Linux ARM and simply add our own package repository, which only adds [a few packages](https://cdn.asahilinux.org/aarch64/asahi/). You can freely convert between Arch Linux ARM and Dragon Linux by adding or removing this repository and the relevant packages, although vanilla Arch Linux ARM kernels will not boot on these machines at this time.
 
-If you're curious, [these](https://github.com/AsahiLinux/asahi-alarm-builder/) are the scripts we use to build the Asahi Linux images starting with a vanilla Arch Linux ARM tarball. We also sponsor an ALARM mirror as part of our project (jp.mirror.archlinuxarm.org).
+If you're curious, [these](https://github.com/AsahiLinux/asahi-alarm-builder/) are the scripts we use to build the Dragon Linux images starting with a vanilla Arch Linux ARM tarball. We also sponsor an ALARM mirror as part of our project (jp.mirror.archlinuxarm.org).
 
 As part of our project, we are contributing fixes and improvements to a number of miscellaneous packages; for example, Apple GPU support for Mesa is already well on the way (it is being tested on macOS), and we also have a fork of xkeyboard-config where we will prototype keyboard layout adjustments to better support Macs before upstreaming.
 
@@ -224,7 +224,7 @@ As part of our project, we are contributing fixes and improvements to a number o
 
 Absolutely! Our goal is to work with other developers to bring full support for these machines to your favorite distro.
 
-That said, at the time of this writing no other Linux distros provide official Apple Silicon install images to our knowledge, and vanilla ARM64 images will not work until the necessary changes have trickled into upstream kernels; therefore, setting up another distro is more of a manual process. Some users are providing [unofficial installation guides](/docs/SW-Alternative-Distros) and images for other distros, and in the future we will add some of them as options to the Asahi Linux installer. Keep in mind that these are user-contributed and we cannot provide end-to-end support as the Asahi Linux project.
+That said, at the time of this writing no other Linux distros provide official Apple Silicon install images to our knowledge, and vanilla ARM64 images will not work until the necessary changes have trickled into upstream kernels; therefore, setting up another distro is more of a manual process. Some users are providing [unofficial installation guides](/docs/SW-Alternative-Distros) and images for other distros, and in the future we will add some of them as options to the Dragon Linux installer. Keep in mind that these are user-contributed and we cannot provide end-to-end support as the Dragon Linux project.
 
 If you are a developer for a distribution and interested in officially supporting Apple Silicon machines, please get in touch! We'd love to work with you to make it happen. You can find us on our [IRC channels](https://asahilinux.org/community/).
 
@@ -234,11 +234,11 @@ We would also love to hear from non-Linux OS distributors. OpenBSD snapshots can
 
 We have strived to make this installer as safe as possible. All disk management operations are performed behind the scenes using native macOS tools (`diskutil`) and the installer doesn't really do anything truly dangerous.
 
-In fact, we haven't seen any data loss or machine damage during the entire development of Asahi Linux, other than obvious user error ("I accidentally wiped my disk"). Apple Silicon machines are almost completely unbrickable: you can boot them in a special [burned-in recovery mode](https://support.apple.com/guide/apple-configurator-2/revive-or-restore-a-mac-with-apple-silicon-apdd5f3c75ad/mac) and recover them, using another machine connected via a USB cable. For those who don't have another macOS machine to act as a host, we have [open source tools](https://github.com/libimobiledevice/idevicerestore) that work on Windows and Linux too.
+In fact, we haven't seen any data loss or machine damage during the entire development of Dragon Linux, other than obvious user error ("I accidentally wiped my disk"). Apple Silicon machines are almost completely unbrickable: you can boot them in a special [burned-in recovery mode](https://support.apple.com/guide/apple-configurator-2/revive-or-restore-a-mac-with-apple-silicon-apdd5f3c75ad/mac) and recover them, using another machine connected via a USB cable. For those who don't have another macOS machine to act as a host, we have [open source tools](https://github.com/libimobiledevice/idevicerestore) that work on Windows and Linux too.
 
 That said, as with all open source software, especially an alpha release like this one, we can't make any promises. It could eat your data. It probably won't, but don't blame us if it does.
 
-While the installer tries hard not to let you do anything dangerous, there is of course nothing stopping you from wiping your macOS data once booted into Linux; you are, of course, in control of your own computer. Those who want to use disk management/partitioning tools should avoid touching the first and last partitions on the internal NVMe drive. Doing so could render your system unbootable and require a DFU restore. In particular, if you do not use the Asahi Linux images but instead boot a third-party installer using the UEFI environment, *never* choose "use the entire disk" when installing.
+While the installer tries hard not to let you do anything dangerous, there is of course nothing stopping you from wiping your macOS data once booted into Linux; you are, of course, in control of your own computer. Those who want to use disk management/partitioning tools should avoid touching the first and last partitions on the internal NVMe drive. Doing so could render your system unbootable and require a DFU restore. In particular, if you do not use the Dragon Linux images but instead boot a third-party installer using the UEFI environment, *never* choose "use the entire disk" when installing.
 
 ### What's with those scary security warnings?
 
@@ -250,15 +250,15 @@ If you are concerned about data integrity/confidentiality in your macOS volume, 
 
 All OSes installed on Apple Silicon machines require certain components provided by Apple. Since we can't redistribute these ourselves, the installer will download them from Apple's public CDN. In the future we will provide an option to allow caching this locally or to a USB drive, so you can do offline installs.
 
-During the initial installation (when making the volume the default boot option), there is a process that runs behind the scenes that involves authenticating the new OS install against Apple's servers (from their point of view, this looks like authenticating a normal macOS install; they won't know you're installing Linux). This is part of the "Full Security" mode, which is transiently used for Asahi Linux before the install is switched to "Permissive Security". If this concerns you, you can launch the Asahi Linux installer from recovery mode (hold down the power button → Options → Utilities menu → Terminal). Doing it this way unlocks an alternate method that starts out as "Reduced Security", removing the phone home requirement, which the installer will automatically use. Note that it will still have to download boot components from the CDN though (but that does not involve any unique machine identifiers, it's just a plain HTTPS download).
+During the initial installation (when making the volume the default boot option), there is a process that runs behind the scenes that involves authenticating the new OS install against Apple's servers (from their point of view, this looks like authenticating a normal macOS install; they won't know you're installing Linux). This is part of the "Full Security" mode, which is transiently used for Dragon Linux before the install is switched to "Permissive Security". If this concerns you, you can launch the Dragon Linux installer from recovery mode (hold down the power button → Options → Utilities menu → Terminal). Doing it this way unlocks an alternate method that starts out as "Reduced Security", removing the phone home requirement, which the installer will automatically use. Note that it will still have to download boot components from the CDN though (but that does not involve any unique machine identifiers, it's just a plain HTTPS download).
 
 ### Do you support Secure Boot / Full Disk Encryption / etc.?
 
-Apple Silicon machines are one of the few general purpose platforms that allows you to install your own custom OS while still maintaining a strong secure boot chain. Installing the bootloader requires physical access to the machine and your machine owner credentials (this is why we need to ask you to hold down the button to boot at the end of the install process!). Therefore, we are very interested in further supporting this in Linux in order to have a highly secure and attacker-resistant system, taking advantage of Apple's SEP, Touch ID, and more, while still retaining full user control over their OS. We are designing the Asahi Linux boot process in order to allow this in the future, but the necessary bits aren't ready yet, so please stay tuned!
+Apple Silicon machines are one of the few general purpose platforms that allows you to install your own custom OS while still maintaining a strong secure boot chain. Installing the bootloader requires physical access to the machine and your machine owner credentials (this is why we need to ask you to hold down the button to boot at the end of the install process!). Therefore, we are very interested in further supporting this in Linux in order to have a highly secure and attacker-resistant system, taking advantage of Apple's SEP, Touch ID, and more, while still retaining full user control over their OS. We are designing the Dragon Linux boot process in order to allow this in the future, but the necessary bits aren't ready yet, so please stay tuned!
 
 In the meantime, we recommend that users concerned about physical security enable FileVault in macOS. This will implicitly add a log-in requirement to recovery mode, which will prevent an attacker with physical access from being able to compromise your OS that way. m1n1 does not yet have a secureboot mode, but it also doesn't have any local access features as long as it is installed properly. Locking down U-Boot and GRUB and the rest of Linux is left as an exercise for the user.
 
-The Asahi Linux installer does not have an option to set up FDE for you. However, you can use the UEFI-only option and roll your own traditional LUKS setup manually. We expect that users interested in advanced secure boot and encryption set-ups will do their own thing, at least for the time being.
+The Dragon Linux installer does not have an option to set up FDE for you. However, you can use the UEFI-only option and roll your own traditional LUKS setup manually. We expect that users interested in advanced secure boot and encryption set-ups will do their own thing, at least for the time being.
 
 ### I have another question
 

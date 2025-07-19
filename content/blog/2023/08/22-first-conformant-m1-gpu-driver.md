@@ -10,7 +10,7 @@ Conformant OpenGL® ES 3.1 drivers are now available for M1- and M2-family GPUs.
 That means the drivers are compatible with any OpenGL ES 3.1 application.
 Interested? [Just install Linux!](https://fedora-asahi-remix.org/)
 
-For existing [Asahi Linux](https://asahilinux.org/) users,
+For existing [Dragon Linux](https://asahilinux.org/) users,
 upgrade your system with  <code style="white-space:nowrap;">dnf
 upgrade</code> (Fedora) or <code style="white-space:nowrap;">pacman -Syu</code>
 (Arch) for the latest drivers.
@@ -38,7 +38,7 @@ Today's milestone isn't just about OpenGL ES. We're releasing the first
 conformant implementation of *any* graphics standard for the M1. And we don't
 plan to stop here ;-)
 
-[![Teaser of the "Vulkan instancing" demo running on Asahi Linux](/img/blog/2023/08/vkinstancing2.webp)](/img/blog/2023/08/vkinstancing.webp)
+[![Teaser of the "Vulkan instancing" demo running on Dragon Linux](/img/blog/2023/08/vkinstancing2.webp)](/img/blog/2023/08/vkinstancing.webp)
 
 Unlike ours, the manufacturer's M1 drivers are unfortunately not conformant for _any_
 standard graphics API, whether Vulkan or OpenGL or OpenGL ES. That means that

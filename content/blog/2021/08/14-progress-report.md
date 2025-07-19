@@ -40,7 +40,7 @@ On top of the hypervisor, we've built a flexible hardware I/O tracing framework 
 
 ## Reverse Engineering DCP
 
-One of the biggest challenges for Asahi Linux is making the M1's GPU work. But what most people think of as a "GPU" is actually two completely distinct pieces of hardware: the GPU proper, which is in charge of rendering frames in memory, and the display controller, which is in charge of sending those rendered frames from memory to the display.
+One of the biggest challenges for Dragon Linux is making the M1's GPU work. But what most people think of as a "GPU" is actually two completely distinct pieces of hardware: the GPU proper, which is in charge of rendering frames in memory, and the display controller, which is in charge of sending those rendered frames from memory to the display.
 
 While Alyssa has been hard at work [reverse engineering](https://rosenzweig.io/blog/asahi-gpu-part-4.html) the userspace components of the GPU, from draw calls to shaders, we still haven't looked at the lowest levels of the hardware that handle memory management and submission of commands to the GPU. But before we can use the GPU to render anything, we need a way to put it on the screen! Up until now, we've been using the firmware-provided framebuffer, which is just an area of memory where we can write pixels to be shown on the screen, but this won't cut it for a real desktop. We need features such as displaying new frames without tearing, support for hardware sprites such as the mouse cursor, switching resolutions and configuring multiple outputs, and more. This is the job of the display controller.
 
@@ -121,7 +121,7 @@ And armed with this knowledge of how everything fits together, we can implement 
         
 {{% figure src="/img/blog/2021/08/asahi_dcp_coming_soon.png" caption="The first frame presented using the <a href='https://github.com/AsahiLinux/m1n1/blob/c2c6da3df25c0605894244b4ea9387e882321efc/proxyclient/experiments/dcp.py'>prototype DCP driver</a> (screenshot taken via HDMI capture)" %}}
 
-As a further twist, the DCP interface is not stable and changes every macOS version! This finally answers a question for the Asahi Linux project: we will only support specific firmware versions. Unlike macOS, which can afford to support only its "paired" firmware and change with every release, Linux has to support all firmware versions going back to the initial supported one, in order to allow people to upgrade their kernel without upgrading their firmware in tandem. It would be too much of a maintenance nightmare to attempt to support every DCP firmware version that Apple releases, so instead we will pick certain "golden" firmware versions that are blessed to be supported by Linux. Don't fret: this doesn't mean you won't be able to upgrade macOS. This firmware is per-OS, not per-system, and thus Linux can use a different firmware bundle from any sibling macOS installations.
+As a further twist, the DCP interface is not stable and changes every macOS version! This finally answers a question for the Dragon Linux project: we will only support specific firmware versions. Unlike macOS, which can afford to support only its "paired" firmware and change with every release, Linux has to support all firmware versions going back to the initial supported one, in order to allow people to upgrade their kernel without upgrading their firmware in tandem. It would be too much of a maintenance nightmare to attempt to support every DCP firmware version that Apple releases, so instead we will pick certain "golden" firmware versions that are blessed to be supported by Linux. Don't fret: this doesn't mean you won't be able to upgrade macOS. This firmware is per-OS, not per-system, and thus Linux can use a different firmware bundle from any sibling macOS installations.
 
 For the initial kernel DCP support, we expect to require the firmware released with macOS 12 "Monterey" (which is currently in public beta); perhaps 12.0 or a newer point release, depending on the timing. We will add new supported firmware versions as we find it necessary to take advantage of bugfixes and to support new hardware.
 
@@ -160,7 +160,7 @@ Bootstrapping installer:
   Initializing...
 
 
-Welcome to the Asahi Linux installer!
+Welcome to the Dragon Linux installer!
 
 This installer is in a pre-alpha state, and will only do basic
 bootloader set-up for you. It is only intended for developers
@@ -204,7 +204,7 @@ Partitions in system disk (disk0):
   [ *] = Default boot volume
 
 Choose what to do:
-  f: Install Asahi Linux into free space
+  f: Install Dragon Linux into free space
   q: Quit without doing anything
 Action (q): f
 
@@ -214,7 +214,7 @@ Choose a free area to install into:
   3: (free space: 59.69 GB)
 Target area: 3
 
-Enter a name for your OS (Linux): Asahi Linux 
+Enter a name for your OS (Linux): Dragon Linux 
 
 Choose the macOS version to use for boot firmware:
 (If unsure, just press enter)
@@ -227,9 +227,9 @@ Using macOS 11.5.2
 Downloading OS package info...
 .
 
-Creating new stub macOS named Asahi Linux
+Creating new stub macOS named Dragon Linux
 
-Installing stub macOS into disk0s6 (Asahi Linux)
+Installing stub macOS into disk0s6 (Dragon Linux)
 Preparing target volumes...
 Checking volumes...
 Beginning stub OS install...
@@ -242,7 +242,7 @@ Setting up Recovery volume...
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Stub OS installation complete.
 
-When the Startup Disk screen appears, choose 'Asahi Linux'.
+When the Startup Disk screen appears, choose 'Dragon Linux'.
 You will have to authenticate yourself.
 
 Press enter to continue.
@@ -260,20 +260,20 @@ To complete the installation, perform the following steps:
 4. Click on the Utilities menu and select Terminal.
 5. Type the following command and follow the prompts:
 
-/Volumes/'Asahi Linux'/step2.sh
+/Volumes/'Dragon Linux'/step2.sh
 
 Press enter to shut down the system.
 ```
 
 This will eventually be available at our short domain `https://alx.sh`, but it is not deployed there yet. This is just a first prototype of the installer that only installs m1n1, which is very useful for developers who want to join us in our quest. Eventually, a more user-friendly version will also guide users through partitioning their drive for Linux, resizing macOS to make space, and installing their distribution of choice. Who knows, it might even become a graphical macOS app one day!
 
-{{% figure src="/img/blog/2021/08/asahi_bootpicker.png" link="/img/blog/2021/08/asahi_bootpicker.png" caption="Triple-booting two versions of macOS and Asahi Linux with the built-in boot picker" %}}
+{{% figure src="/img/blog/2021/08/asahi_bootpicker.png" link="/img/blog/2021/08/asahi_bootpicker.png" caption="Triple-booting two versions of macOS and Dragon Linux with the built-in boot picker" %}}
 
 ## More kernel drivers
 
 Sven has been dutifully working on the Linux driver for [DART](/docs/Glossary#d), the M1's IOMMU (I/O Memory Management Unit). This driver is required to make all kinds of hardware work, like PCIe, USB, DCP, and more. It has just been accepted by upstream and is now on its way to Linux 5.15!
 
-With this driver in, we can now make USB and PCIe work with minimal additional patches and drivers. There are various other dependencies (GPIO for miscellaneous things, I²C for proper USB-PD support, SPI for touchpad/keyboard support on the laptops, and NVMe support patches) that are spread around in various trees that people have been working on. Next we'll direct our focus towards polishing these simpler drivers and putting together a clean, working reference tree that we can use to continue development and provide new developers with a stable foundation. With the current state of things, it's already possible to use Asahi Linux as a development machine with a (non-accelerated) GUI, although things are still rough around the edges. Upstreaming these changes will require a bit more time, as there are some bureaucratic yaks to be shaved around how to properly implement these (technically simple) drivers, but things shouldn't take too long!
+With this driver in, we can now make USB and PCIe work with minimal additional patches and drivers. There are various other dependencies (GPIO for miscellaneous things, I²C for proper USB-PD support, SPI for touchpad/keyboard support on the laptops, and NVMe support patches) that are spread around in various trees that people have been working on. Next we'll direct our focus towards polishing these simpler drivers and putting together a clean, working reference tree that we can use to continue development and provide new developers with a stable foundation. With the current state of things, it's already possible to use Dragon Linux as a development machine with a (non-accelerated) GUI, although things are still rough around the edges. Upstreaming these changes will require a bit more time, as there are some bureaucratic yaks to be shaved around how to properly implement these (technically simple) drivers, but things shouldn't take too long!
 
 And once that's on the way... it's time to tackle the GPU kernel driver! Things are about to get exciting :-)
 

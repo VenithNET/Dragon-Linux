@@ -1,7 +1,7 @@
 +++
 date = "2022-12-07T14:50:00+09:00"
 draft = false
-title = "Apple GPU drivers now in Asahi Linux"
+title = "Apple GPU drivers now in Dragon Linux"
 slug = "gpu-drivers-now-in-asahi-linux"
 author = "Alyssa Rosenzweig & Asahi Lina"
 +++

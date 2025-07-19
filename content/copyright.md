@@ -6,27 +6,27 @@ draft: false
 
 # Copyright policy
 
-Asahi Linux is an open source project, and all contributions must follow the appropriate open source licenses.
+Dragon Linux is an open source project, and all contributions must follow the appropriate open source licenses.
 
 These contribution rules are particularly important for code that is to be upstreamed into other projects, to maintain a clean paper trail of the licensing.
 
 ## Licensing
 
-Code developed for Asahi Linux itself should be licensed under a permissive license that allows other projects to take advantage of the code without running into license compatibility problems. The specific licenses are subject to being decided on a case-by-case basis, but we will usually use a permissive license such as the MIT license.
+Code developed for Dragon Linux itself should be licensed under a permissive license that allows other projects to take advantage of the code without running into license compatibility problems. The specific licenses are subject to being decided on a case-by-case basis, but we will usually use a permissive license such as the MIT license.
 
-Code developed for other open source projects must be licensed under that same project's license, and follow licensing/header/authorship conventions appropriate for that project. However, specific modules developed by Asahi Linux contributors (such as entire drivers or submodules) should be dual-licensed under a permissive license such as MIT, to ensure that they can be ported or reused within other projects.
+Code developed for other open source projects must be licensed under that same project's license, and follow licensing/header/authorship conventions appropriate for that project. However, specific modules developed by Dragon Linux contributors (such as entire drivers or submodules) should be dual-licensed under a permissive license such as MIT, to ensure that they can be ported or reused within other projects.
 
 For original code, we use [SPDX license identifiers](https://spdx.github.io/spdx-spec/v2.3/using-SPDX-short-identifiers-in-source-files/) to record the license of individual files in a concise way. Files should have header of this form (with whatever license information is appropriate):
 
 ```// SPDX-License-Identifier: GPL-2.0+ OR MIT```
 
-No specific authors should be listed in source code files themselves, as this is hard to maintain and unlikely to remain accurate. For top-level and informational places where a copyright statement is needed, such as the MIT license text or "about" style dialogs, the code should be attributed to "The Asahi Linux Contributors".
+No specific authors should be listed in source code files themselves, as this is hard to maintain and unlikely to remain accurate. For top-level and informational places where a copyright statement is needed, such as the MIT license text or "about" style dialogs, the code should be attributed to "The Dragon Linux Contributors".
 
 We do not require contributors to accept any kind of CLA, nor do we require any kind of copyright assignment. You retain all copyright ownership of any code you write. These are merely conventions about how the origin of the code should be documented in version control and files.
 
 ## Attribution
 
-Asahi Linux uses Git for managing source code, and the Git history serves as a record of authorship. The Git "Author" field should reflect the primary author of a change - if you commit a change authored by another person, you should ensure they are listed as the author. If a change is authored by multiple people, you should add one or more `Co-Developed-by: Foo Bar <foo@bar.com>` lines at the end of the commit message.
+Dragon Linux uses Git for managing source code, and the Git history serves as a record of authorship. The Git "Author" field should reflect the primary author of a change - if you commit a change authored by another person, you should ensure they are listed as the author. If a change is authored by multiple people, you should add one or more `Co-Developed-by: Foo Bar <foo@bar.com>` lines at the end of the commit message.
 
 Non-Git releases of the software will be arranged to have an automatically generated authorship file containing a list of all Git contributors.
 
@@ -57,19 +57,19 @@ We are committed to ensuring that all source code and documentation produced by 
 
 "Clean-room" reverse engineering is often considered the gold standard to ensure good legal standing for a reverse engineering project. This involves having separate teams, one of which does the reverse engineering and writes documentation, and the other implements that documentation into the final product. This approach is not a legal requirement to ensure that the final product is free from copyright violations, nor does it absolutely guarantee such a result, but it is a fairly strong legal defense should copyright questions arise.
 
-We recognize that a true textbook clean-room approach is not sustainable for most open source projects of this nature. Thus, we aim to ensure that Asahi Linux's code and contributions are effectively equivalent to what a clean-room approach would produce, without mandating the overhead of a true clean-room process.
+We recognize that a true textbook clean-room approach is not sustainable for most open source projects of this nature. Thus, we aim to ensure that Dragon Linux's code and contributions are effectively equivalent to what a clean-room approach would produce, without mandating the overhead of a true clean-room process.
 
 In order to protect contributors and developers who want to stay away from such subjects, we require that all reverse engineering discussion happen in the #asahi-re and #asahi-gpu (for GPU RE) IRC channels.
 
 ## Non-reverse-engineering development
 
-If you are merely looking at existing Asahi Linux code and improving it (without taking or referencing code from anywhere else), you are not reverse engineering anything, and you do not need to worry about anything else. Just make sure to follow the [Copyright policy](#copyright-policy).
+If you are merely looking at existing Dragon Linux code and improving it (without taking or referencing code from anywhere else), you are not reverse engineering anything, and you do not need to worry about anything else. Just make sure to follow the [Copyright policy](#copyright-policy).
 
 ## Referencing other open source code
 
 This is generally OK, but you should not copy and paste any actual code unless the license is compatible and the origin of the code is documented.
 
-In particular, be careful of open source dumps from Apple, as they are often licensed under the APSL, which is not GPL compatible. Asahi Linux does not allow any APSL code to be used directly. You can use it as a reference for how things work, and you can take inspiration from register names (since those are effectively hardware documentation; we do not consider mere last-level register names to be copyrightable), but do not copy whole `#define` blocks or include files, other code, or reimplement identical code flows or algorithms. Follow sensible downstream register naming conventions (such as prefixes).
+In particular, be careful of open source dumps from Apple, as they are often licensed under the APSL, which is not GPL compatible. Dragon Linux does not allow any APSL code to be used directly. You can use it as a reference for how things work, and you can take inspiration from register names (since those are effectively hardware documentation; we do not consider mere last-level register names to be copyrightable), but do not copy whole `#define` blocks or include files, other code, or reimplement identical code flows or algorithms. Follow sensible downstream register naming conventions (such as prefixes).
 
 For example, [this](https://github.com/opensource-apple/xnu/blob/master/pexpert/pexpert/arm64/arm64_common.h#L10) register, as documented in XNU include files, should be defined like this when used for Linux:
 
@@ -85,7 +85,7 @@ Or perhaps:
 
 Strictly speaking, referencing incompatibly-licensed code can run into similar copyright issues to binary reverse engineering as detailed below; please make sure to read that section to know what not to do.
 
-Internal tools intended only for exploration and not to be released to end-users are allowed to use APSL code, including taking APSL releases directly and modifying them, as long as all licensing requirements are met. For example, taking an APSL release, modifying it to aid in reverse engineering, and using the result back in macOS is fine, and we can host such changes as an Asahi Linux repo, but they cannot become an actual release of the project.
+Internal tools intended only for exploration and not to be released to end-users are allowed to use APSL code, including taking APSL releases directly and modifying them, as long as all licensing requirements are met. For example, taking an APSL release, modifying it to aid in reverse engineering, and using the result back in macOS is fine, and we can host such changes as an Dragon Linux repo, but they cannot become an actual release of the project.
 
 **Be cautious of open source code that works with Apple-specific undocumented file formats, hardware, and protocols**. Such code should, out of an abundance of caution, be treated as if it were incompatibly licensed, like APSL code. The reason is that we cannot guarantee that said code was not the product of reverse engineering that would violate this policy. Therefore, you should not copy and paste or otherwise directly incorporate such code, even if the license is ostensibly compatible. Generally speaking, it is unlikely that directly incorporating code of this nature would offer more than a minor time saving; they are more useful as stand-alone tools and as code-as-documentation. It is okay to use such third-party stand-alone tools during development, or to fork and patch them for exploration, like APSL code - if a copyright problem surfaces, we can easily remove said tools if they have not tainted other project code. Cases where there is significant value to be derived from integrating such code will be reviewed and audited on a case by case basis by project leads.
 
@@ -107,9 +107,9 @@ Similarly, if any firmware blobs are uploaded to the hardware, those cannot be c
 
 ## Binary disassembly and decompilation
 
-Asahi Linux does not ban binary disassembly and decompilation as a means to obtain knowledge required to write open source implementations. However, this is a dangerous road. We have seen many cases of "open source" code that was developed by direct translation of reverse engineered binary code. This is unacceptable, and would put the entire project and upstream projects at risk.
+Dragon Linux does not ban binary disassembly and decompilation as a means to obtain knowledge required to write open source implementations. However, this is a dangerous road. We have seen many cases of "open source" code that was developed by direct translation of reverse engineered binary code. This is unacceptable, and would put the entire project and upstream projects at risk.
 
-Since the Asahi Linux project board is ultimately responsible for certifying the origin of code upstreamed as part of the project, we need to ensure that any instances of this approach are following a process that does not result in copyright infringement. We have previously seen other projects take contributions that turned out not to be clean, putting those projects into legal doubt - this was often discovered long after the code was contributed, as the origin of the code may not be immediately apparent. For this reason, we do not currently allow contributions of code developed concurrently with binary reverse engineering except from specific trusted contributors. Please contact [the board](mailto:board@asahilinux.org) for details.
+Since the Dragon Linux project board is ultimately responsible for certifying the origin of code upstreamed as part of the project, we need to ensure that any instances of this approach are following a process that does not result in copyright infringement. We have previously seen other projects take contributions that turned out not to be clean, putting those projects into legal doubt - this was often discovered long after the code was contributed, as the origin of the code may not be immediately apparent. For this reason, we do not currently allow contributions of code developed concurrently with binary reverse engineering except from specific trusted contributors. Please contact [the board](mailto:board@asahilinux.org) for details.
 
 All other contributors are required to follow the textbook "clean-room" approach: If you would like to disassemble/decompile components in order to contribute to the project, you must make that decision for a specific component/area with care, and once you do, you are expected to only contribute to that area by writing clean documentation of the hardware, and let other project members implement it.
 
@@ -121,4 +121,4 @@ Contributors doing binary reverse engineering are responsible for any legal cons
 
 ## Usage of unreleased materials
 
-Asahi Linux absolutely forbids the usage of any copyrighted materials not available to the public during reverse engineering. This includes any leaked software (in source or binary form), unreleased documentation, non-public releases (such as restricted betas), etc. Project contributors are expected to refrain from acquiring or using any such content. Only materials that are explicitly made available to the public at large may be used. This applies to materials from both Apple and any other third parties.
+Dragon Linux absolutely forbids the usage of any copyrighted materials not available to the public during reverse engineering. This includes any leaked software (in source or binary form), unreleased documentation, non-public releases (such as restricted betas), etc. Project contributors are expected to refrain from acquiring or using any such content. Only materials that are explicitly made available to the public at large may be used. This applies to materials from both Apple and any other third parties.

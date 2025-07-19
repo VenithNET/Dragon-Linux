@@ -1,10 +1,10 @@
-## Asahi Linux logos
+## Dragon Linux logos
 
-This directory contains the logo art for Asahi Linux.
+This directory contains the logo art for Dragon Linux.
 
-You may use the logos to reference the Asahi Linux project. Please do not use them to represent other projects, or to imply any association with or endorsement by Asahi Linux.
+You may use the logos to reference the Dragon Linux project. Please do not use them to represent other projects, or to imply any association with or endorsement by Dragon Linux.
 
-The Asahi Linux logo art is copyright (c) 2021 soundflora* and Hector Martin.
+The Dragon Linux logo art is copyright (c) 2021 soundflora* and Hector Martin.
 
 The logo art is licensed under CC BY-SA 4.0. Please see the LICENSE file for the license text.
 

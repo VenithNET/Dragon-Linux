@@ -37,4 +37,4 @@ Our working documentation is maintained in a [documentation site](/docs) built f
 
 ## Mastodon (Fediverse)
 
-You will also find official announcements and information on the [Asahi Linux Mastodon account](https://social.treehouse.systems/@AsahiLinux).
+You will also find official announcements and information on the [Dragon Linux Mastodon account](https://social.treehouse.systems/@AsahiLinux).

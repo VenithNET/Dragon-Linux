@@ -6,11 +6,11 @@ slug = "progress-report-september-2021"
 author = "marcan"
 +++
 
-It's been a busy month! We've had a lot of movement in kernel land, as well as some tooling improvements and reverse engineering sessions. At this point, Asahi Linux is usable as a basic Linux desktop (without GPU acceleration)! The ground had been shifting until now, but we're seeing drivers settle down. Let's take a look at what's been going on.
+It's been a busy month! We've had a lot of movement in kernel land, as well as some tooling improvements and reverse engineering sessions. At this point, Dragon Linux is usable as a basic Linux desktop (without GPU acceleration)! The ground had been shifting until now, but we're seeing drivers settle down. Let's take a look at what's been going on.
 
 ## Linux drivers galore
 
-Earlier this year we saw the absolute lowest level drivers being merged into the kernel. Those are important for bring-up, but to get a usable system we need many more. Over September we've seen a lot of action on this front, with many important drivers now in review or even already merged for Linux 5.16. The goal of the Asahi Linux project is to upstream everything into the Linux kernel, so all our drivers are eventually headed for upstream review.
+Earlier this year we saw the absolute lowest level drivers being merged into the kernel. Those are important for bring-up, but to get a usable system we need many more. Over September we've seen a lot of action on this front, with many important drivers now in review or even already merged for Linux 5.16. The goal of the Dragon Linux project is to upstream everything into the Linux kernel, so all our drivers are eventually headed for upstream review.
 
 * **PCIe bindings (<span style="color: #080">merged</span>)**: Mark Kettenis has been working on porting U-Boot and OpenBSD to the M1, and he contributed the Device Tree bindings for the PCI Express hardware in the M1. These bindings are effectively the standard that allows multiple open OSes to agree on how the hardware is described, so they can boot from the same bootloader.
 
@@ -52,7 +52,7 @@ With these drivers, M1 Macs are actually usable as desktop Linux machines! While
 
 While there are certainly many rough edges and missing drivers, getting to this point allows development to be self-hosted and developers to eat their own dogfood. Alyssa has been doing just that, using her M1 Mac running her own kernel merges as a daily driver. Follow her [Twitter](https://twitter.com/alyssarzg) for updates on her setup!
 
-As the dust settles on these Linux drivers, we will start providing an official installer that those adventurous enough can use to try out Asahi Linux with a minimal amount of fuss in the near future. Remember, there are still many missing bits (USB3, TB, camera, GPU, audio, etc.) as well as patchsets a bit too problematic to bundle as-is at this time (WiFi, which needs significant rewrites), so don't expect this to be anywhere near the polished experience that is the goal of our project. That said, we hope this will allow those willing to be on the absolute bleeding edge to get a taste for what running Linux on these machines is like – and, for some, this might be enough for production usage.
+As the dust settles on these Linux drivers, we will start providing an official installer that those adventurous enough can use to try out Dragon Linux with a minimal amount of fuss in the near future. Remember, there are still many missing bits (USB3, TB, camera, GPU, audio, etc.) as well as patchsets a bit too problematic to bundle as-is at this time (WiFi, which needs significant rewrites), so don't expect this to be anywhere near the polished experience that is the goal of our project. That said, we hope this will allow those willing to be on the absolute bleeding edge to get a taste for what running Linux on these machines is like – and, for some, this might be enough for production usage.
 
 ## Installer updates
 

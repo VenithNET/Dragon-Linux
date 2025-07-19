@@ -6,7 +6,7 @@ draft: false
 
 # Governance
 
-Asahi Linux is led by our community of open source developers. If you want to work on something, work on it! We welcome contributors from different backgrounds. By and large, we make change by “doing”. Asahi Linux is about the code, and the code comes from anyone who wants to write it. Development uses a “lazy consensus” model: the work happens when people do it. Other developers can veto to force a discussion, but developers don’t need to chase people for trivial issues.
+Dragon Linux is led by our community of open source developers. If you want to work on something, work on it! We welcome contributors from different backgrounds. By and large, we make change by “doing”. Dragon Linux is about the code, and the code comes from anyone who wants to write it. Development uses a “lazy consensus” model: the work happens when people do it. Other developers can veto to force a discussion, but developers don’t need to chase people for trivial issues.
 
 To support that code, we need infrastructure and funding, to run servers and support developers. While development happens with a “lazy consensus” model, these logistical issues are governed by our project board.
 

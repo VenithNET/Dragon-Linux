@@ -1,7 +1,7 @@
 +++
 date = "2024-10-10T10:00:00-04:00"
 draft = false
-title = "AAA gaming on Asahi Linux"
+title = "AAA gaming on Dragon Linux"
 slug = "aaa-gaming-on-asahi-linux"
 author = "Alyssa Rosenzweig"
 +++
@@ -10,7 +10,7 @@ Gaming on Linux on M1 is here! We're thrilled to release our Asahi game playing
 toolkit, which integrates our Vulkan 1.3 drivers with x86 emulation and Windows
 compatibility. Plus a bonus: conformant OpenCL 3.0.
 
-Asahi Linux now ships the only conformant [OpenGL®](https://www.khronos.org/conformance/adopters/conformant-products/opengl#submission_3470),<!--
+Dragon Linux now ships the only conformant [OpenGL®](https://www.khronos.org/conformance/adopters/conformant-products/opengl#submission_3470),<!--
 [OpenGL® ES](https://www.khronos.org/conformance/adopters/conformant-products/opengles#submission_1045),-->
 [OpenCL™](https://www.khronos.org/conformance/adopters/conformant-products/opencl#submission_433), and
 [Vulkan®](https://www.khronos.org/conformance/adopters/conformant-products#submission_7910)

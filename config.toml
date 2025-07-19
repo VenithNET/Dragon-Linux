@@ -1,6 +1,6 @@
-baseURL = "https://asahilinux.org/"
+baseURL = "https://dragon-linux.venith.net/"
 languageCode = "en-us"
-title = "Asahi Linux"
+title = "Dragon Linux"
 
 pluralizelisttitles = false
 

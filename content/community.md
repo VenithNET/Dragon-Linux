@@ -12,7 +12,7 @@ Please remember that all community members are expected to abide by our [Code of
 
 ## Discord
 
-Most development and project discussion takes place on Discord. We have several channels on the OFTC IRC network:
+Most development and project discussion takes place on Discord. We have several channels on our Discord:
 
 * #dragon-linux [chat](https://discord.go.venith.net/dragon)] - General project discussion
 * #dragon-dev [chat](https://discord.go.venith.net/dragon-dev)] - Development discussion

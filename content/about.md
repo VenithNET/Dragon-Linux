@@ -42,4 +42,4 @@ Dragon Linux is a community, and everyone is invited to contribute. If you are i
 
 Current major contributors are:
 
-* [Matthew Pitsicalis](https://home.venith.net/), the project lead. Matthew is a Linux nerd known for his work on various projects.
+* [Matthew Pitsicalis](https://home.venith.net/), the founder of Dragon Linux. Matthew is a Linux nerd known for his work on various projects.

@@ -41,7 +41,7 @@ Fedora Linux 42 comes with [KDE Plasma 6.3](https://kde.org/announcements/plasma
 <section class="topic">
 
 ## <div>100% Wayland Experience</div>
-## BRUH - WIP
+### BRUH - WIP
 <img width="150" class="w-150" src="/img/far_landing/Wayland_Logo.svg">Whether you're a KDE enthusiast or a dragon lover Ubuntu Dragon Remix comes right out of the box with a 100% [Wayland](https://wayland.freedesktop.org/) environment, bringing you the newest desktop and display server technologies, which are a perfect match for Apple hardware. You'll get a buttery smooth desktop, with absolutely no tearing or glitching, just like on macOS. Experience seamless HiDPI support in our KDE Plasma builds, even across multiple displays with different display scales.
 
 And with upcoming improvements in the Wayland ecosystem, we'll be able to support new technologies such as HDR and display notches, as well as proper display calibration. Have some X11 apps to run? No worries, XWayland is available and fully supported as a bridge for legacy applications.
@@ -50,7 +50,7 @@ And with upcoming improvements in the Wayland ecosystem, we'll be able to suppor
 <section class="topic">
 
 ## <div>OpenGL, deprecated? Not here</div>
-## BRUH - WIP
+### BRUH - WIP
 <p style="text-align:unset">
 <img width="200" style="float:unset" src="/img/far_landing/OpenGL_logo.svg"/>
 <img width="200" style="float:unset" src="/img/far_landing/OpenGL_ES_logo.svg"/>
@@ -67,7 +67,7 @@ We support open graphics standards and test against official and industry-standa
 <section class="topic">
 
 ## <div>The best Linux laptop audio you've ever heard</div>
-## BRUH - WIP
+### BRUH - WIP
 <img width="200" class="w-200" src="/img/far_landing/curves.svg">We've worked hard to pioneer the world's first fully integrated DSP solution for the desktop Linux ecosystem. Just install Ubuntu Dragon Remix and enjoy high-quality audio right out of the box, no setup needed. We've worked together with the [PipeWire](https://pipewire.org/) and [WirePlumber](https://gitlab.freedesktop.org/pipewire/wireplumber) projects to add support for fully automatic and transparent DSP configuration, and then individually measured and calibrated 8+ different machine models, designing a customized DSP filter configuration for each one.
 
 With our in-house [Bankstown](https://github.com/chadmed/bankstown) bass boost technology and our own pioneering open source [Smart Amp](https://github.com/AsahiLinux/speakersafetyd) implementation to safely provide full loudness and dynamic range, the result is the best audio you've ever heard on a Linux laptop. And we've even optimized the scheduling and power consumption of the DSP processing, so you'll get excellent battery life while playing back audio.

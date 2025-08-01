@@ -1,11 +1,11 @@
 +++
 date = "2025-03-21T09:00:00+10:00"
 draft = false
-title = "Progress Report: Linux 6.14"
+title = "Progress Report: Linux [KERNEL VER]"
 slug = "progress-report-6-14"
-author = "James Calligeros"
+author = "Matthew Pitsicalis"
 +++
-
+WIP - REDO
 As March draws to a close and Linux 6.14 nears release, now is a good time to
 provide you all with our first major progress update since [taking the lead on
 the project](https://asahilinux.org/2025/02/passing-the-torch/). Going forward,

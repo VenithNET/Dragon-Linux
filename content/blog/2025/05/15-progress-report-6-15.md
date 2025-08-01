@@ -1,11 +1,11 @@
 +++
 date = "2025-05-15T13:00:00+10:00"
 draft = false
-title = "Progress Report: Linux 6.15"
+title = "Progress Report: Linux [VER]"
 slug = "progress-report-6-15"
-author = "James Calligeros"
+author = "Matthew Pitsicalis"
 +++
-
+WIP-REDO
 Linux 6.15 is right around the corner, which means it's time for another progress
 report! We have been pretty busy behind the scenes and we have some exciting developments
 to share with you all.

@@ -14,22 +14,22 @@ layout: landing
             <pre><a href="https://sourceforge.net/projects/sujix-linux/files/latest/download"><code id="curl">Download</code></a></pre>
         </div>
         <div>
-            <img src="/img/merge/desktop.png" alt="Fedora Asahi Remix on a laptop">
+            <img src="/img/merge/desktop.png" alt="Ubuntu Dragon Remix on a laptop">
         </div>
     </div>
 </section>
 <section class="topic">
 
-## <div>Fedora Linux 42 + Apple Silicon = Fedora Asahi Remix</div>
+## <div>Fedora Linux 42 + Apple Silicon = Ubuntu Dragon Remix</div>
 
-<img width="200" class="w-200" src="/img/far_landing/fedora_remix.png">Fedora Asahi Remix is the result of a close multi-year collaboration between the Dragon Linux project and the [Fedora Project](https://fedoraproject.org/). We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible. All of our Asahi platform-specific packages are in upstream Fedora and fully supported in Fedora Linux 42.
+<img width="200" class="w-200" src="/img/far_landing/fedora_remix.png">Ubuntu Dragon Remix started out as a simple hobby project to bring Linux to the masses during an era of Linux not becoming mainstream. A time where software was NOT supported across the board like it is now. Now in the modern era of Linux development we came back to revive the project.  We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible.
 
-With Fedora's excellent 64-bit ARM support and mature development process, you can expect a solid and high-quality experience without any unwanted surprises. Fedora Asahi Remix is based on Fedora Linux 42, the latest Fedora Linux release with the newest software versions across the board. All M1 and M2 series MacBook, Mac Mini, Mac Studio, and iMac devices are supported.
+With Ubuntu's excellent software and hardware support, you can expect a solid and high-quality experience without any unwanted surprises. Ubuntu Dragon Remix is based on Ubuntu Linux 25, the latest Ubuntu Linux release with the newest software versions across the board. We support most AMD and Intel CPU's.
 
 </section>
 <section class="topic">
 
-## <div>Fedora Asahi Remix ❤️ KDE Plasma</div>
+## <div>Ubuntu Dragon Remix ❤️ KDE Plasma</div>
 
 <img width="150" class="w-150" src="/img/far_landing/kde-logo-white-blue-rounded-source.svg">We are proud to offer [KDE Plasma](https://kde.org/plasma-desktop/) as our flagship desktop environment. With leading edge Wayland support and a highly customizable experience plus wide support for Apple hardware features, KDE Plasma is a joy to use on Apple Silicon.
 
@@ -37,14 +37,12 @@ Want to use Night Color to keep your screen from disrupting your sleep cycle? No
 
 Fedora Linux 42 comes with [KDE Plasma 6.3](https://kde.org/announcements/plasma/6/6.3.0/), with the latest patches and improvements to provide *the* premier desktop experience.
 
-Rather use [GNOME](https://www.gnome.org/)? No worries, we've got you covered with [GNOME 48](https://release.gnome.org/48/). Or, if you prefer to roll your own desktop configuration or want to set up a headless server, our Minimal and Server images will let you set things up exactly the way you want to.
-
 </section>
 <section class="topic">
 
 ## <div>100% Wayland Experience</div>
-
-<img width="150" class="w-150" src="/img/far_landing/Wayland_Logo.svg">Whether you're a KDE enthusiast or a GNOME lover, Fedora Asahi Remix comes right out of the box with a 100% [Wayland](https://wayland.freedesktop.org/) environment, bringing you the newest desktop and display server technologies, which are a perfect match for Apple hardware. You'll get a buttery smooth desktop, with absolutely no tearing or glitching, just like on macOS. Experience seamless HiDPI support in our KDE Plasma builds, even across multiple displays with different display scales.
+## BRUH - WIP
+<img width="150" class="w-150" src="/img/far_landing/Wayland_Logo.svg">Whether you're a KDE enthusiast or a dragon lover Ubuntu Dragon Remix comes right out of the box with a 100% [Wayland](https://wayland.freedesktop.org/) environment, bringing you the newest desktop and display server technologies, which are a perfect match for Apple hardware. You'll get a buttery smooth desktop, with absolutely no tearing or glitching, just like on macOS. Experience seamless HiDPI support in our KDE Plasma builds, even across multiple displays with different display scales.
 
 And with upcoming improvements in the Wayland ecosystem, we'll be able to support new technologies such as HDR and display notches, as well as proper display calibration. Have some X11 apps to run? No worries, XWayland is available and fully supported as a bridge for legacy applications.
 
@@ -52,7 +50,7 @@ And with upcoming improvements in the Wayland ecosystem, we'll be able to suppor
 <section class="topic">
 
 ## <div>OpenGL, deprecated? Not here</div>
-
+## BRUH - WIP
 <p style="text-align:unset">
 <img width="200" style="float:unset" src="/img/far_landing/OpenGL_logo.svg"/>
 <img width="200" style="float:unset" src="/img/far_landing/OpenGL_ES_logo.svg"/>
@@ -60,17 +58,17 @@ And with upcoming improvements in the Wayland ecosystem, we'll be able to suppor
 <img width="200" style="float:unset" src="/img/far_landing/Vulkan_logo.svg"/>
 </p>
 
-Fedora Asahi Remix ships the world's first and only certified conformant [OpenGL 4.6](https://www.khronos.org/conformance/adopters/conformant-products/opengl#submission_347), [OpenGL ES 3.2](https://www.khronos.org/conformance/adopters/conformant-products/opengles#submission_1045), [OpenCL 3.0](https://www.khronos.org/conformance/adopters/conformant-products/opencl#submission_433), and
+Ubuntu Dragon Remix ships the world's first and only certified conformant [OpenGL 4.6](https://www.khronos.org/conformance/adopters/conformant-products/opengl#submission_347), [OpenGL ES 3.2](https://www.khronos.org/conformance/adopters/conformant-products/opengles#submission_1045), [OpenCL 3.0](https://www.khronos.org/conformance/adopters/conformant-products/opencl#submission_433), and
 [Vulkan 1.4](https://www.khronos.org/conformance/adopters/conformant-products/vulkan#submission_812) for Apple Silicon.
 
-We support open graphics standards and test against official and industry-standard test suites, which means you can be confident that your apps and games will run correctly and render as they're intended to. Fedora Asahi Remix unlocks the full potential of Apple Silicon graphics, well beyond what is possible by layering on top of vendor-proprietary APIs like Metal.
+We support open graphics standards and test against official and industry-standard test suites, which means you can be confident that your apps and games will run correctly and render as they're intended to. Ubuntu Dragon Remix unlocks the full potential of Apple Silicon graphics, well beyond what is possible by layering on top of vendor-proprietary APIs like Metal.
 
 </section>
 <section class="topic">
 
 ## <div>The best Linux laptop audio you've ever heard</div>
-
-<img width="200" class="w-200" src="/img/far_landing/curves.svg">We've worked hard to pioneer the world's first fully integrated DSP solution for the desktop Linux ecosystem. Just install Fedora Asahi Remix and enjoy high-quality audio right out of the box, no setup needed. We've worked together with the [PipeWire](https://pipewire.org/) and [WirePlumber](https://gitlab.freedesktop.org/pipewire/wireplumber) projects to add support for fully automatic and transparent DSP configuration, and then individually measured and calibrated 8+ different machine models, designing a customized DSP filter configuration for each one.
+## BRUH - WIP
+<img width="200" class="w-200" src="/img/far_landing/curves.svg">We've worked hard to pioneer the world's first fully integrated DSP solution for the desktop Linux ecosystem. Just install Ubuntu Dragon Remix and enjoy high-quality audio right out of the box, no setup needed. We've worked together with the [PipeWire](https://pipewire.org/) and [WirePlumber](https://gitlab.freedesktop.org/pipewire/wireplumber) projects to add support for fully automatic and transparent DSP configuration, and then individually measured and calibrated 8+ different machine models, designing a customized DSP filter configuration for each one.
 
 With our in-house [Bankstown](https://github.com/chadmed/bankstown) bass boost technology and our own pioneering open source [Smart Amp](https://github.com/AsahiLinux/speakersafetyd) implementation to safely provide full loudness and dynamic range, the result is the best audio you've ever heard on a Linux laptop. And we've even optimized the scheduling and power consumption of the DSP processing, so you'll get excellent battery life while playing back audio.
 

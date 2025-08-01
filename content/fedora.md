@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Dragon Remix
-date:  "2025-04-15T11:27:00-04:00"
+date:  "2025-08-1T11:27:00-04:00"
 draft: false
 body_class: "landing dragon"
 layout: landing
@@ -83,35 +83,19 @@ With our in-house [Bankstown](https://github.com/chadmed/bankstown) bass boost t
     <div class="devices">
         <a href="#" id="dev1" class="device dev-selected">
             <img src="/img/devices/macbook_air.svg">
-            <p>MacBook Air</p>
-        </a>
-        <a href="#" id="dev2" class="device">
-            <img src="/img/devices/macbook_pro.svg">
-            <p>MacBook Pro</p>
-        </a>
-        <a href="#" id="dev3" class="device">
-            <img src="/img/devices/mac_mini.svg">
-            <p>Mac Mini</p>
-        </a>
-        <a href="#" id="dev4" class="device">
-            <img src="/img/devices/mac_studio.svg">
-            <p>Mac Studio</p>
+            <p>Laptop</p>
         </a>
         <a href="#" id="dev5" class="device">
             <img src="/img/devices/imac.svg">
-            <p>iMac</p>
-        </a>
-        <a class="device comingsoon">
-            <img src="/img/devices/mac_pro.svg">
-            <p>Mac Pro</p>
+            <p>PC</p>
         </a>
     </div>
     <div class="device-infos">
         <div id="info-dev1" class="device-info dev-selected"><div>
             <h3>Chips</h3>
             <div class="features">
-                <div class="sup">M1</div>
-                <div class="sup">M2</div>
+                <div class="sup">AMD</div>
+                <div class="sup">Intel</div>
             </div>
             <h3>Features</h3>
             <div class="features">
@@ -122,15 +106,12 @@ With our in-house [Bankstown](https://github.com/chadmed/bankstown) bass boost t
                 <div class="sup">Speakers</div>
                 <div class="sup">Microphone</div>
                 <div class="sup">Camera</div>
-                <div class="sup">MagSafe*</div>
-                <div class="sup">USB Type C (USB 3.0)</div>
+                <div class="sup">USB Type C</div>
                 <div class="sup">Wi-Fi</div>
                 <div class="sup">Bluetooth</div>
-                <div class="unsup">USB-C Displays</div>
-                <div class="unsup">Thunderbolt / USB4</div>
-                <div class="unsup">Touch ID</div>
+                <div class="sup">USB-C Displays</div>
+                <div class="sup">Thunderbolt / USB4</div>
             </div>
-            <p>* Available on M2 model only.</p>
         </div></div>
         <div id="info-dev2" class="device-info"><div>
             <h3>Chips</h3>

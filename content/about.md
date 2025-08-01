@@ -4,7 +4,7 @@ date:  "2021-01-05T20:00:00+09:00"
 draft: false
 ---
 
-# About Dragon Linux
+# About Dragon Linux [WIP]
 
 Dragon Linux is a project and community with the goal of porting Linux to Apple Silicon Macs, starting with the 2020 M1 Mac Mini, MacBook Air, and MacBook Pro.
 

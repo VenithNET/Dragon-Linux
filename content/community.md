@@ -10,9 +10,9 @@ If you're interested in the project, you're welcome to drop by!  Check out [ways
 
 Please remember that all community members are expected to abide by our [Code of Conduct](/code-of-conduct).
 
-## IRC
+## Discord
 
-Most development and project discussion takes place on IRC. We have several channels on the OFTC IRC network:
+Most development and project discussion takes place on Discord. We have several channels on the OFTC IRC network:
 
 * #asahi [[logs](https://oftc.irclog.whitequark.org/asahi)] - General project discussion
 * #asahi-dev [[logs](https://oftc.irclog.whitequark.org/asahi-dev)] - Development discussion

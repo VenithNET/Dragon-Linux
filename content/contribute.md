@@ -12,7 +12,7 @@ All contributors are expected to abide by our [Code of Conduct](/code-of-conduct
 
 ## New to this kind of thing?
 
-Are you interested in this kind of project, but you've never worked on something like this before? We were all like that at one point! The best way to learn how a low-level reverse engineering and development project like this works is to get involved. It might be intimidating at first, but don't worry. Join the [IRC channels](/community) and watch to see how things work. If you find an area which you find interesting, you can poke around yourself! If you feel like you can contribute to anything, just say so!
+Are you interested in this kind of project, but you've never worked on something like this before? We were all like that at one point! The best way to learn how a low-level reverse engineering and development project like this works is to get involved. It might be intimidating at first, but don't worry. Join the [community channels](/community) and watch to see how things work. If you find an area which you find interesting, you can poke around yourself! If you feel like you can contribute to anything, just say so!
 
 Here are some suggestions to get you started:
 
@@ -24,7 +24,3 @@ Here are some suggestions to get you started:
 ## Already been here before?
 
 Feel free to jump right and help us out - there is lots of work to do. A brief introduction would be helpful so that we can get to know you better. Let us know what you are experienced with and we can point you at specific areas you can help with.
-
-## Prefer to help financially?
-
-Head over to our [Open Collective](https://opencollective.com/asahilinux) to donate. Every little bit counts!

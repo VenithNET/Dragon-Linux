@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Dragon Remix
-date:  "2025-08-1T11:27:00-04:00"
+date:  "2025-01-08T20:00:00+09:00"
 draft: false
 body_class: "landing dragon"
 layout: landing

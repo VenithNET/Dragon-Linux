@@ -20,7 +20,7 @@ layout: landing
 </section>
 <section class="topic">
 
-## <div>Fedora Linux 42 + Apple Silicon = Ubuntu Dragon Remix</div>
+## <div>Ubuntu Linux 25 + Dragons = Ubuntu Dragon Remix</div>
 
 <img width="200" class="w-200" src="/img/far_landing/fedora_remix.png">Ubuntu Dragon Remix started out as a simple hobby project to bring Linux to the masses during an era of Linux not becoming mainstream. A time where software was NOT supported across the board like it is now. Now in the modern era of Linux development we came back to revive the project.  We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible.
 

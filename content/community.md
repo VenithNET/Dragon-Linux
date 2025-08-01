@@ -14,9 +14,9 @@ Please remember that all community members are expected to abide by our [Code of
 
 Most development and project discussion takes place on Discord. We have several channels on our Discord:
 
-* #dragon-linux [chat](https://discord.go.venith.net/dragon)] - General project discussion
-* #dragon-dev [chat](https://discord.go.venith.net/dragon-dev)] - Development discussion
-* #dragon-stream [watch](https://twitch.go.venith.net) - Chatroom for people to talk during the devs' video streams
+* #dragon-linux [][chat](https://discord.go.venith.net/dragon)] - General project discussion
+* #dragon-dev [[chat](https://discord.go.venith.net/dragon-dev)] - Development discussion
+* #dragon-stream [[watch](https://twitch.go.venith.net) - Chatroom for people to talk during the devs' video streams
 
 Even if you don't plan to speak, feel free to join and idle in the above channels if you'd like to follow the discussion.
 

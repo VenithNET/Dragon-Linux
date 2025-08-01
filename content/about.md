@@ -30,7 +30,7 @@ All AMD, and Intel devices are in scope, as well as future generations as develo
 
 ## Is this a Linux distribution?
 
-Dragon Linux is a flagship distro [Fedora Asahi Remix](/fedora), which is a unoffical remix of Ubuntu Linux, and serves as both a polished end-user distribution and a reference for other distributions who wish to incorporate our work.
+Dragon Linux is a unoffical remix of Ubuntu Linux, and serves as both a polished end-user distribution and a reference for other distributions who wish to incorporate our work.
 
 ## How will this be released?
 

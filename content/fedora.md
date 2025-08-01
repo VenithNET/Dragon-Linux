@@ -85,7 +85,7 @@ With our in-house [Bankstown](https://github.com/chadmed/bankstown) bass boost t
             <img src="/img/devices/macbook_air.svg">
             <p>Laptop</p>
         </a>
-        <a href="#" id="dev5" class="device">
+        <a href="#" id="dev2" class="device">
             <img src="/img/devices/imac.svg">
             <p>PC</p>
         </a>

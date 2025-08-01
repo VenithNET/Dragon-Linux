@@ -12,7 +12,7 @@ Dragon Linux is developed by a thriving community of free and open source softwa
 
 ## The name
 
-Theming around the mystical world of dragons  旭りんご (*asahi ringo*) is something new, and not seen before in the world of Linux.
+Theming around the mystical world of dragons  日本の龍 (*nihon no ryu*) is something new, and not seen before in the world of Linux.
 
 ## The logo
 

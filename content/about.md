@@ -34,7 +34,7 @@ Dragon Linux is a flagship distro [Fedora Asahi Remix](/fedora), which is a unof
 
 ## How will this be released?
 
-All development takes place on GitHub, [github.com/VenithET](https://github.com/VenithNET). We write our contributions with the intent to upstream them into the respective upstream projects, including the Linux kernel. We aim to upstream as early as is practical. Code will be dual-licensed as the upstream license (e.g. GPL) and a permissive license (e.g. MIT), to ensure that the work can be reused in other OSes where possible.
+All development takes place on GitHub, [github.com/VenithNET](https://github.com/VenithNET). We write our contributions with the intent to upstream them into the respective upstream projects, including the Linux kernel. We aim to upstream as early as is practical. Code will be dual-licensed as the upstream license (e.g. GPL) and a permissive license (e.g. MIT), to ensure that the work can be reused in other OSes where possible.
 
 ## Who is working on Dragon Linux?
 

@@ -14,27 +14,12 @@ Please remember that all community members are expected to abide by our [Code of
 
 Most development and project discussion takes place on Discord. We have several channels on the OFTC IRC network:
 
-* #asahi [[logs](https://oftc.irclog.whitequark.org/asahi)] - General project discussion
-* #asahi-dev [[logs](https://oftc.irclog.whitequark.org/asahi-dev)] - Development discussion
-* #asahi-re [[logs](https://oftc.irclog.whitequark.org/asahi-re)] - Binary decompilation/tainted discussion
-* #asahi-gpu [[logs](https://oftc.irclog.whitequark.org/asahi-gpu)] - GPU reverse engineering and development
-* #asahi-alt [[logs](https://oftc.irclog.whitequark.org/asahi-alt)] - Discussion and support for unofficial third-party distro ports
-* #asahi-stream - Chatroom for people to talk during the devs' video streams
+* #dragon-linux [chat](https://discord.go.venith.net/dragon)] - General project discussion
+* #dragon-dev [chat](https://discord.go.venith.net/dragon-dev)] - Development discussion
+* #dragon-stream [watch](https://twitch.go.venith.net) - Chatroom for people to talk during the devs' video streams
 
 Even if you don't plan to speak, feel free to join and idle in the above channels if you'd like to follow the discussion.
 
-**Note: Due to spambot attacks, we currently only allow users connecting with TLS to join the channels. Please make sure your IRC client is set to enable TLS and connect to irc.oftc.net on port 6697**.
-
-## Matrix
-
-The Fedora-specific Asahi discussions take place in Matrix on Fedora infra:
-* [#asahi-devel:fedoraproject.org](https://matrix.to/#/#asahi-devel:fedoraproject.org) - Fedora Asahi Development. IRC bridge: #fedora-asahi-dev
-* [#asahi:fedoraproject.org](https://matrix.to/#/#asahi:fedoraproject.org) - Fedora Asahi general discussion/support
-
-## Documentation
-
-Our working documentation is maintained in a [documentation site](/docs) built from [GitHub](https://github.com/AsahiLinux/docs) using [MkDocs](https://mkdocs.org).
-
 ## Mastodon (Fediverse)
 
-You will also find official announcements and information on the [Dragon Linux Mastodon account](https://social.treehouse.systems/@AsahiLinux).
+You will also find official announcements and information on the [Dragon Linux Mastodon account](https://nerdculture.de/@astafathersatan).

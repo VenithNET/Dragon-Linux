@@ -20,7 +20,7 @@ Theming around the mystical world of dragons  旭りんご (*asahi ringo*) is so
 
 The Dragon Linux logo was designed by [MattTheTekie](https://home.venith.net). The Dragon Linux website is based on the Asahi Linux website designed by [soundflora*](https://soundflora.tokyo).
 
-<img src="/img/AsahiLinux_kawaii_logo.png" alt="Kawaii Dragon Linux logo" width="100">
+<img src="/img/AsahiLinux_kawaii_logo.png" alt="Kawaii Asahi Linux logo" width="100">
 
 # FAQ
 
@@ -30,7 +30,7 @@ All AMD, and Intel devices are in scope, as well as future generations as develo
 
 ## Is this a Linux distribution?
 
-Dragon Linux is a unoffical remix of Ubuntu Linux, and serves as both a polished end-user distribution and a reference for other distributions who wish to incorporate our work.
+Dragon Linux is a [unoffical remix of Ubuntu Linux](/fedora), and serves as both a polished end-user distribution and a reference for other distributions who wish to incorporate our work.
 
 ## How will this be released?
 

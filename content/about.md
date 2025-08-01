@@ -4,9 +4,9 @@ date:  "2021-01-05T20:00:00+09:00"
 draft: false
 ---
 
-# About Dragon Linux [WIP]
+# About Dragon Linux
 
-Dragon Linux is a project and community with the goal of making a simple and easy to use Linux experience with support for various hardware from all kinds of life.
+Dragon Linux is a project with the goal of making a simple and easy to use Linux experience with support for various hardware from all kinds of life.
 
 Dragon Linux is developed by a thriving community of free and open source software developers.
 

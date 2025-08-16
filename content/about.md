@@ -26,7 +26,7 @@ The Dragon Linux logo was designed by [MattTheTekie](https://home.venith.net). T
 
 ## What devices are/will be supported?
 
-All AMD, and Intel devices are in scope, as well as future generations as development time permits. We currently have support for most machines and some legacy machines. Check out our [feature support page](/docs/platform/feature-support/overview) for the most up-to-date information. There's also a condensed feature overview available [here](/ubuntu/#device-support).
+All AMD, and Intel devices are in scope, as well as future generations as development time permits. We currently have support for most machines and some legacy machines. Check out our [feature support page](/ubuntu/#device-support) for the most up-to-date information.
 
 ## Is this a Linux distribution?
 

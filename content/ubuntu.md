@@ -65,6 +65,7 @@ We support open graphics standards and test against official and industry-standa
 
 ## <div>The best Linux laptop audio you've ever heard</div>
 <center>### Rewrite In Progress</center>
+
 <img width="200" class="w-200" src="/img/far_landing/curves.svg">We've worked hard to pioneer the world's first fully integrated DSP solution for the desktop Linux ecosystem. Just install Ubuntu Dragon Remix and enjoy high-quality audio right out of the box, no setup needed. We've worked together with the [PipeWire](https://pipewire.org/) and [WirePlumber](https://gitlab.freedesktop.org/pipewire/wireplumber) projects to add support for fully automatic and transparent DSP configuration, and then individually measured and calibrated 8+ different machine models, designing a customized DSP filter configuration for each one.
 
 With our in-house [Bankstown](https://github.com/chadmed/bankstown) bass boost technology and our own pioneering open source [Smart Amp](https://github.com/AsahiLinux/speakersafetyd) implementation to safely provide full loudness and dynamic range, the result is the best audio you've ever heard on a Linux laptop. And we've even optimized the scheduling and power consumption of the DSP processing, so you'll get excellent battery life while playing back audio.

@@ -26,15 +26,15 @@ The Dragon Linux logo was designed by [MattTheTekie](https://home.venith.net). T
 
 ## What devices are/will be supported?
 
-All AMD, and Intel devices are in scope, as well as future generations as development time permits. We currently have support for most machines and some legacy machines. Check out our [feature support page](/docs/platform/feature-support/overview) for the most up-to-date information. There's also a condensed feature overview available [here](/fedora/#device-support).
+All AMD, and Intel devices are in scope, as well as future generations as development time permits. We currently have support for most machines and some legacy machines. Check out our [feature support page](/docs/platform/feature-support/overview) for the most up-to-date information. There's also a condensed feature overview available [here](/ubuntu/#device-support).
 
 ## Is this a Linux distribution?
 
-Dragon Linux is a [unoffical remix of Ubuntu Linux](/fedora), and serves as both a polished end-user distribution and a reference for other distributions who wish to incorporate our work.
+Dragon Linux is a [unoffical remix of Ubuntu Linux](/ubuntu), and serves as both a polished end-user distribution and a reference for other distributions who wish to incorporate our work.
 
 ## How will this be released?
 
-All development takes place on GitHub, [github.com/VenithNET](https://github.com/VenithNET). We write our contributions with the intent to upstream them into the respective upstream projects, including the Linux kernel. We aim to upstream as early as is practical. Code will be dual-licensed as the upstream license (e.g. GPL) and a permissive license (e.g. MIT), to ensure that the work can be reused in other OSes where possible.
+All development takes place on GitHub, [github.com/VenithNET](https://github.com/VenithNET). We write our contributions with the intent to upstream them into the respective upstream projects. Code will be dual-licensed as the upstream license (e.g. GPL) and a permissive license (e.g. MIT), to ensure that the work can be reused in other OSes where possible.
 
 ## Who is working on Dragon Linux?
 

@@ -1,8 +1,6 @@
 ## Dragon Linux
 ### Current Progress
 
-[-] Rewrite Website.
+[-] Rewrite Website. [In Progress]
 
-[-] Update the OS.
-
-[-] Bring back SourceForge links.
+[-] Update the OS. [Not Ready]

@@ -22,7 +22,7 @@ layout: landing
 
 ## <div>Ubuntu Linux 25 + Dragons = Ubuntu Dragon Remix</div>
 
-<img width="200" class="w-200" src="/img/far_landing/fedora_remix.png">Ubuntu Dragon Remix started out as a simple hobby project to bring Linux to the masses during an era of Linux not becoming mainstream. A time where software was NOT supported across the board like it is now. Now in the modern era of Linux development we came back to revive the project.  We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible.
+<img width="200" class="w-200" src="/img/far_landing/ubuntu_remix.png">Ubuntu Dragon Remix started out as a simple hobby project to bring Linux to the masses during an era of Linux not becoming mainstream. A time where software was NOT supported across the board like it is now. Now in the modern era of Linux development we came back to revive the project.  We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible.
 
 With Ubuntu's excellent software and hardware support, you can expect a solid and high-quality experience without any unwanted surprises. Ubuntu Dragon Remix is based on Ubuntu Linux 25, the latest Ubuntu Linux release with the newest software versions across the board. We support most AMD and Intel CPU's.
 

@@ -1,1 +1,0 @@
-## [Dragon Linux logos](logos/)

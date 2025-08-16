@@ -1,5 +1,5 @@
 ---
-title: Ubuntu Dragon Remix
+title: Dragon Linux
 date:  "2025-01-08T20:00:00+09:00"
 draft: false
 body_class: "landing dragon"
@@ -9,27 +9,27 @@ layout: landing
     <div>
         <div>
             <p>Introducing</p>
-            <h1>Ubuntu Dragon Remix</h1>
+            <h1>Dragon Linux</h1>
             <p>The most Dragonified Linux® to exist.</p>
             <pre><a href="https://sourceforge.net/projects/sujix-linux/files/latest/download"><code id="curl">Download</code></a></pre>
         </div>
         <div>
-            <img src="/img/merge/desktop.png" alt="Ubuntu Dragon Remix on a laptop">
+            <img src="/img/merge/desktop.png" alt="Dragon Linux on a laptop">
         </div>
     </div>
 </section>
 <section class="topic">
 
-## <div>Ubuntu Linux 25 + Dragons = Ubuntu Dragon Remix</div>
+## <div>Ubuntu Linux 25 + Dragons = Dragon Linux</div>
 
-<img width="200" class="w-200" src="/img/far_landing/ubuntu_remix.png">Ubuntu Dragon Remix started out as a simple hobby project to bring Linux to the masses during an era of Linux not becoming mainstream. A time where software was NOT supported across the board like it is now. Now in the modern era of Linux development we came back to revive the project.  We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible.
+<img width="200" class="w-200" src="/img/far_landing/ubuntu_remix.png">Dragon Linux started out as a simple hobby project to bring Linux to the masses during an era of Linux not becoming mainstream. A time where software was NOT supported across the board like it is now. Now in the modern era of Linux development we came back to revive the project.  We've worked hard in order to bring you a fully integrated distro, cooperating closely to get improvements and bug fixes to users as quickly as possible.
 
-With Ubuntu's excellent software and hardware support, you can expect a solid and high-quality experience without any unwanted surprises. Ubuntu Dragon Remix is based on Ubuntu Linux 25, the latest Ubuntu Linux release with the newest software versions across the board. We support most AMD and Intel CPU's.
+With Ubuntu's excellent software and hardware support, you can expect a solid and high-quality experience without any unwanted surprises. Dragon Linux is based on Ubuntu Linux 25, the latest Ubuntu Linux release with the newest software versions across the board. We support most AMD and Intel CPU's.
 
 </section>
 <section class="topic">
 
-## <div>Ubuntu Dragon Remix ❤️ KDE Plasma</div>
+## <div>Dragon Linux ❤️ KDE Plasma</div>
 
 <img width="150" class="w-150" src="/img/far_landing/kde-logo-white-blue-rounded-source.svg">We are proud to offer [KDE Plasma](https://kde.org/plasma-desktop/) as our flagship desktop environment. With leading edge Wayland support and a highly customizable experience plus wide support for many hardware features, KDE Plasma is a joy to use on systems.
 
@@ -55,10 +55,10 @@ Dragon Linux 6.1 comes with [KDE Plasma 6.3](https://kde.org/announcements/plasm
 <img width="200" style="float:unset" src="/img/far_landing/Vulkan_logo.svg"/>
 </p>
 
-Ubuntu Dragon Remix ships the world's first and only certified conformant [OpenGL 4.6](https://www.khronos.org/conformance/adopters/conformant-products/opengl#submission_347), [OpenGL ES 3.2](https://www.khronos.org/conformance/adopters/conformant-products/opengles#submission_1045), [OpenCL 3.0](https://www.khronos.org/conformance/adopters/conformant-products/opencl#submission_433), and
+Dragon Linux ships the world's first and only certified conformant [OpenGL 4.6](https://www.khronos.org/conformance/adopters/conformant-products/opengl#submission_347), [OpenGL ES 3.2](https://www.khronos.org/conformance/adopters/conformant-products/opengles#submission_1045), [OpenCL 3.0](https://www.khronos.org/conformance/adopters/conformant-products/opencl#submission_433), and
 [Vulkan 1.4](https://www.khronos.org/conformance/adopters/conformant-products/vulkan#submission_812) for Apple Silicon.
 
-We support open graphics standards and test against official and industry-standard test suites, which means you can be confident that your apps and games will run correctly and render as they're intended to. Ubuntu Dragon Remix unlocks the full potential of Apple Silicon graphics, well beyond what is possible by layering on top of vendor-proprietary APIs like Metal.
+We support open graphics standards and test against official and industry-standard test suites, which means you can be confident that your apps and games will run correctly and render as they're intended to. Dragon Linux unlocks the full potential of Apple Silicon graphics, well beyond what is possible by layering on top of vendor-proprietary APIs like Metal.
 
 </section>
 <section class="topic">
@@ -66,7 +66,7 @@ We support open graphics standards and test against official and industry-standa
 ## <div>The best Linux laptop audio you've ever heard</div>
 <center>Rewrite In Progress</center>
 
-<img width="200" class="w-200" src="/img/far_landing/curves.svg">We've worked hard to pioneer the world's first fully integrated DSP solution for the desktop Linux ecosystem. Just install Ubuntu Dragon Remix and enjoy high-quality audio right out of the box, no setup needed. We've worked together with the [PipeWire](https://pipewire.org/) and [WirePlumber](https://gitlab.freedesktop.org/pipewire/wireplumber) projects to add support for fully automatic and transparent DSP configuration, and then individually measured and calibrated 8+ different machine models, designing a customized DSP filter configuration for each one.
+<img width="200" class="w-200" src="/img/far_landing/curves.svg">We've worked hard to pioneer the world's first fully integrated DSP solution for the desktop Linux ecosystem. Just install Dragon Linux and enjoy high-quality audio right out of the box, no setup needed. We've worked together with the [PipeWire](https://pipewire.org/) and [WirePlumber](https://gitlab.freedesktop.org/pipewire/wireplumber) projects to add support for fully automatic and transparent DSP configuration, and then individually measured and calibrated 8+ different machine models, designing a customized DSP filter configuration for each one.
 
 With our in-house [Bankstown](https://github.com/chadmed/bankstown) bass boost technology and our own pioneering open source [Smart Amp](https://github.com/AsahiLinux/speakersafetyd) implementation to safely provide full loudness and dynamic range, the result is the best audio you've ever heard on a Linux laptop. And we've even optimized the scheduling and power consumption of the DSP processing, so you'll get excellent battery life while playing back audio.
 

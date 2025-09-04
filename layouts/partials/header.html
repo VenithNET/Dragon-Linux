@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ if not .IsHome }}{{.Title}} - {{ end }}Dragon Linux</title>
+    <title>{{ if not .IsHome }}{{.Title}} - {{ end }}Home - Dragon Linux</title>
     <link rel="stylesheet" href="/css/main.css?{{ slicestr (readFile "static/css/main.css" | md5) 0 8 }}">
     <link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link id="favicon" rel="icon" href="/img/merge/dragon(1).jpeg">
+    <link id="favicon" rel="icon" href="/img/merge/dragon1.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@300;500;700&family=Noto+Serif+JP:wght@200;500&family=Varela+Round&display=swap" rel="stylesheet">
     {{ if .OutputFormats.Get "RSS" }}
     <link href="{{ (.OutputFormats.Get "RSS").RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ if not .IsHome }}{{.Title}} - {{ end }}Dragon Linux" />
@@ -17,13 +17,13 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@DragonLinux" />
     <meta name="twitter:creator" content="@DragonLinux" />
-    <meta name="twitter:title" content="{{ if not .IsHome }}{{.Title}} - {{ end }}Dragon Linux" />
+    <meta name="twitter:title" content="{{ if not .IsHome }}{{.Title}} - {{ end }}Home - Dragon Linux" />
     <meta name="twitter:description" content="The most dragonified Linux distribution to exist" />
-    <meta name="twitter:image" content="https://dragon-linux.venith.net/img/merge/dragon(1).jpeg" />
+    <meta name="twitter:image" content="https://dragon-linux.venith.net/img/merge/dragon1.png" />
     <meta name="twitter:image:width" content="256">
     <meta name="twitter:image:height" content="256">
 
-    <meta property="og:image" content="https://dragon-linux.venith.net/img/merge/dragon(1).jpeg">
+    <meta property="og:image" content="https://dragon-linux.venith.net/img/merge/dragon1.png">
     <meta property="og:title" content="{{ if not .IsHome }}{{.Title}} - {{ end }}Dragon Linux">
     <script>
         var kawaii = (new URLSearchParams(window.location.search)).get("kawaii") ?? localStorage.getItem("kawaii");

@@ -18,7 +18,7 @@ Theming around the mystical world of dragons  日本の龍 (*nihon no ryu*) is s
 
 <img src="/img/merge/dragon1.png" alt="Dragon Linux logo" width="100">
 
-The Dragon Linux logo was designed by [MattTheTekie](https://home.venith.net). The Dragon Linux website is based on the Asahi Linux website designed by [soundflora*](https://soundflora.tokyo).
+The Dragon Linux logo is a modified work of a clipart designed by [ClipArtBest](https://www.clipartbest.com/clipart-7cao4M6gi). The Dragon Linux website is based on the Asahi Linux website designed by [soundflora*](https://soundflora.tokyo).
 
 <img src="/img/AsahiLinux_kawaii_logo.png" alt="Kawaii Asahi Linux logo" width="100">
 

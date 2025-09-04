@@ -44,34 +44,6 @@ Dragon Linux 6.1 comes with [KDE Plasma 6.3](https://kde.org/announcements/plasm
 <img width="150" class="w-150" src="/img/merge/dragon.jpeg">Dragon Linux comes out of the box with all of the essentials like Firefox, LibreOffice, Educational Apps, Video Games, Freetube, Spotify, and a whole LOT more! Dragon Linux offers a seamless and carefree expierence. Dragon Linux also comes with offline apps such as locally hostable AI options, offline wiki's, and a whole ton more!
 
 </section>
-<section class="topic">
-
-## <div>OpenGL, deprecated? Not here</div>
-<center>Rewrite In Progress</center>
-<p style="text-align:unset">
-<img width="200" style="float:unset" src="/img/far_landing/OpenGL_logo.svg"/>
-<img width="200" style="float:unset" src="/img/far_landing/OpenGL_ES_logo.svg"/>
-<img width="200" style="float:unset" src="/img/far_landing/OpenCL_logo.svg"/>
-<img width="200" style="float:unset" src="/img/far_landing/Vulkan_logo.svg"/>
-</p>
-
-Dragon Linux ships the world's first and only certified conformant [OpenGL 4.6](https://www.khronos.org/conformance/adopters/conformant-products/opengl#submission_347), [OpenGL ES 3.2](https://www.khronos.org/conformance/adopters/conformant-products/opengles#submission_1045), [OpenCL 3.0](https://www.khronos.org/conformance/adopters/conformant-products/opencl#submission_433), and
-[Vulkan 1.4](https://www.khronos.org/conformance/adopters/conformant-products/vulkan#submission_812) for Apple Silicon.
-
-We support open graphics standards and test against official and industry-standard test suites, which means you can be confident that your apps and games will run correctly and render as they're intended to. Dragon Linux unlocks the full potential of Apple Silicon graphics, well beyond what is possible by layering on top of vendor-proprietary APIs like Metal.
-
-</section>
-<section class="topic">
-
-## <div>The best Linux laptop audio you've ever heard</div>
-<center>Rewrite In Progress</center>
-
-<img width="200" class="w-200" src="/img/far_landing/curves.svg">We've worked hard to pioneer the world's first fully integrated DSP solution for the desktop Linux ecosystem. Just install Dragon Linux and enjoy high-quality audio right out of the box, no setup needed. We've worked together with the [PipeWire](https://pipewire.org/) and [WirePlumber](https://gitlab.freedesktop.org/pipewire/wireplumber) projects to add support for fully automatic and transparent DSP configuration, and then individually measured and calibrated 8+ different machine models, designing a customized DSP filter configuration for each one.
-
-With our in-house [Bankstown](https://github.com/chadmed/bankstown) bass boost technology and our own pioneering open source [Smart Amp](https://github.com/AsahiLinux/speakersafetyd) implementation to safely provide full loudness and dynamic range, the result is the best audio you've ever heard on a Linux laptop. And we've even optimized the scheduling and power consumption of the DSP processing, so you'll get excellent battery life while playing back audio.
-
-</section>
-
 <section id="device-support">
     <div class="center-title">
         <h1 id="device-support">Device support</h1>

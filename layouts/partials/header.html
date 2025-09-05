@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ if not .IsHome }}{{.Title}} - {{ end }}Dragon Linux</title>
+    <title>{{ if not .IsHome }}{{.Title}} - {{ end }}</title>
     <link rel="stylesheet" href="/css/main.css?{{ slicestr (readFile "static/css/main.css" | md5) 0 8 }}">
     <link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">

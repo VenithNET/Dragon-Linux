@@ -9,9 +9,9 @@ Dragon Linux is a dragon themed remix of the old [Sujix Linux](https://sourcefor
 
 ### Current Progress
 
-[-] Rewrite Website. [In Progress]
+[✔] Rewrite Website. [Completed]
 
-[-] Update the OS. [Not Ready]
+[-] Update the OS. [In-Progress]
 
 ## Contributing
 

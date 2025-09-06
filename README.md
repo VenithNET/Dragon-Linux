@@ -9,11 +9,11 @@ Dragon Linux is a Ubuntu based dragon themed Linux distribution.<br>
 [Dragons not included!]<br>
 
 [Website]
-https://dragon-linux.venith.net/
+https://dragon-linux.venith.net/<br>
 [GitHub]
-https://github.com/VenithNET/Dragon-Linux
+https://github.com/VenithNET/Dragon-Linux<br>
 [Discord]
-https://discord.go.venith.net
+https://discord.go.venith.net<br>
 
 ### Current Progress
 

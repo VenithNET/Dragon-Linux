@@ -4,8 +4,16 @@
 
 # Dragon Linux
 
-This is the main repository for Dragon Linux.
-Dragon Linux is a dragon themed Linux distro based on Ubuntu.
+This is the main repository for the Dragon Linux website.
+Dragon Linux is a Ubuntu based dragon themed Linux distribution.
+[Dragons not included!]
+
+[Website]
+https://dragon-linux.venith.net/
+[GitHub]
+https://github.com/VenithNET/Dragon-Linux
+[Discord]
+https://discord.go.venith.net
 
 ### Current Progress
 

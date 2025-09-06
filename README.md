@@ -5,13 +5,13 @@
 # Dragon Linux
 
 This is the main repository for Dragon Linux.
-Dragon Linux is a dragon themed remix of the old [Sujix Linux](https://sourceforge.net/projects/sujix-linux/files/velvet-live-3.1-amd64-kde.iso/download) I made years ago.
+Dragon Linux is a dragon themed Linux distro based on Ubuntu.
 
 ### Current Progress
 
 [✔] Rewrite Website. [Completed]
 
-[-] Update the OS. [In-Progress]
+[✔] Update the OS. [Completed]
 
 ## Contributing
 

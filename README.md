@@ -8,11 +8,11 @@ This is the main repository for the Dragon Linux website.<br>
 Dragon Linux is a Ubuntu based dragon themed Linux distribution.<br>
 [Dragons not included!]<br>
 
-[Website]
+[Website]<br>
 https://dragon-linux.venith.net/<br>
-[GitHub]
+[GitHub]<br>
 https://github.com/VenithNET/Dragon-Linux<br>
-[Discord]
+[Discord]<br>
 https://discord.go.venith.net<br>
 
 ### Current Progress

@@ -8,8 +8,9 @@ author = "Matthew Pitsicalis"
 
 ## The Dragons have arisen!
 
-Dragon Linux 6.1 is now released! We plan to have MUCH more stable release times now.
+Dragon Linux 6.1 is now released!
 
 ## Release Notes
 
-Every major Ubuntu version will have a rebase. While we do NOT have a built in updater to go between versions like Mint does, you can always apt upgrade. We will correct boot branding on the next release.
+We plan to make new releases of Dragon Linux on every new Ubuntu release. Example [Ubuntu 25.04 -> 25.10]
+While we do NOT have a built in updater to go between versions like Mint does, you can always apt upgrade.

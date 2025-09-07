@@ -12,5 +12,5 @@ Dragon Linux 6.1 is now released!
 
 ## Release Notes
 
-We plan to make new releases of Dragon Linux on every new Ubuntu release. Example [Ubuntu 25.04 -> 25.10]
+We plan to make new releases of Dragon Linux on every new Ubuntu release.<br> Example [Ubuntu 25.04 -> 25.10]<br>
 While we do NOT have a built in updater to go between versions like Mint does, you can always apt upgrade.

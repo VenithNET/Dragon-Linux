@@ -27,5 +27,5 @@ https://discord.go.venith.net<br>
 
 All contributors are expected to abide by our [Code of Conduct](assets/content/code-of-conduct.md) and our [Copyright Policy](assets/content/copyright.md).
 
-For more information, please see our [Contributing](assets/contribute.md) page.
+For more information, please see our [Contributing](assets/content/contribute.md) page.
 

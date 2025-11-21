@@ -82,6 +82,26 @@
     }
 
 }
+/* Scale desktop.png image next to "What is Dragon Linux?" on mobile */
+@media (max-width: 768px) {
+    /* Target the column containing the image */
+    .columns.left .column:last-child img {
+        max-width: 100% !important;  /* image cannot exceed container width */
+        height: auto !important;      /* maintain aspect ratio */
+        margin: 0 auto !important;    /* center the image horizontally */
+        display: block;
+    }
+
+    /* Ensure the column container shrinks to fit image */
+    .columns.left .column:last-child {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        height: auto !important;
+        padding-top: 10px !important;
+    }
+}
+
 </style>
 <script src="assets/js/jquery-3.x.min.js"></script>
 <script src="assets/js/underscore-min.js"></script>

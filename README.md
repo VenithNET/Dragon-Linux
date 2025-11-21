@@ -25,7 +25,7 @@ https://discord.go.venith.net<br>
 
 ## Contributing
 
-All contributors are expected to abide by our [Code of Conduct](https://dragon-linux.venith.net/code-of-conduct) and our [Copyright Policy](https://dragon-linux.venith.net/copyright).
+All contributors are expected to abide by our [Code of Conduct](assets/content/code-of-conduct.md) and our [Copyright Policy](assets/content/copyright.md).
 
-For more information, please see our [Contributing](https://dragon-linux.venith.net/contribute/) page.
+For more information, please see our [Contributing](assets/contribute.md) page.
 

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Home - Dragon Linux</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="GravCMS" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@DragonLinux" />
+<meta name="twitter:creator" content="@DragonLinux" />
+<meta name="twitter:title" content="Dragon Linux" />
+<meta name="twitter:description" content="The most dragonified Linux distribution to exist" />
+<meta name="twitter:image" content="https://dragon-linux.venith.net/assets/images/favicon.png" />
+<meta name="twitter:image:width" content="256">
+<meta name="twitter:image:height" content="256">
+<meta property="og:image" content="https://dragon-linux.venith.net/assets/images/favicon.png">
+<meta property="og:title" content="Dragon Linux">
+<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+<link rel="canonical" href="index.html" />
+<link href="assets/css/all.min.css" type="text/css" rel="stylesheet">
+<link href="assets/css/mermaid.css" type="text/css" rel="stylesheet">
+<link href="assets/css/form-styles.css" type="text/css" rel="stylesheet">
+<link href="assets//css/login.css" type="text/css" rel="stylesheet">
+<link href="assets/css/spectre.min.css" type="text/css" rel="stylesheet">
+<link href="assets/css/spectre-exp.min.css" type="text/css" rel="stylesheet">
+<link href="assets/css/theme.min.css" type="text/css" rel="stylesheet">
+<link href="assets/css/custom.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.1.0/css/all.css"/>
+<script src="assets/js/jquery-3.x.min.js"></script>
+<script src="assets/js/underscore-min.js"></script>
+<script src="assets/js/raphael-min.js"></script>
+<script src="assets/js/sequence-diagram-min.js"></script>
+<script src="assets/js/flowchart-latest.js"></script>
+<script src="assets/js/mermaid.min.js"></script>
+<script src="assets/js/singlepagenav.min.js"></script>
+<script>
+$(document).ready(function() {
+                    mermaid.initialize({startOnLoad:true});
+                    mermaid.ganttConfig = {
+                      axisFormatter: [["%d-%m-%Y", function (d){return d.getDay() == 1;}]]
+                    };
+
+                    $(".diagram").sequenceDiagram({theme: 'simple'});
+
+                    var parent = document.getElementsByClassName("flow");
+                    for(var i=0;i<parent.length;i++) {
+                        var data = parent[i].innerHTML.replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+                        parent[i].innerHTML = "";
+                        var chart = flowchart.parse(data);
+                        chart.drawSVG('canvas_'+i, {
+                            'font-size': 14,
+                            'font-color': 'black',
+                            'line-color': 'black',
+                            'element-color': 'black',
+                            'yes-text': 'yes',
+                            'no-text': 'no',
+
+                            // More informations : http://flowchart.js.org
+                            'flowstate' : {
+                                'simple': {'fill' : '#FFFFFF'},
+                                'positive': {'fill' : '#387EF5'},
+                                'success': { 'fill' : '#9FF781'},
+                                'invalid': {'fill' : '#FA8258'},
+                                'calm': {'fill' : '#11C1F3'},
+                                'royal': {'fill' : '#CF86E9'},
+                                'energized': {'fill' : 'F3FD60'},
+                            }
+                        });
+                    }
+                 });
+</script>
+</head>
+<body id="top" class=" header-fixed header-animated header-dark header-transparent">
+<div id="page-wrapper">
+<section id="header" class="section">
+<section class="container grid-lg">
+<nav class="navbar">
+<section class="navbar-section logo">
+<a href="index.html" class="navbar-brand mr-10">
+<img src="assets/images/banner.jpeg" alt="Dragon Linux" />
+</a>
+</section>
+<section class="navbar-section desktop-menu">
+<nav class="dropmenu animated">
+<ul class="langswitcher">
+</ul>
+<ul class="navigation">
+<li><a class="" href="#home">Home</a></li>
+<li><a class="" href="#what-is-dragon-linux">What is Dragon Linux?</a></li>
+<li><a class="" href="#features">Features</a></li>
+<li><a class="" href="#download-now">Downloads</a></li>
+</ul>
+</nav>
+</section>
+</nav>
+</section>
+</section>
+<div class="mobile-menu">
+<div class="button_container" id="toggle">
+<span class="top"></span>
+<span class="middle"></span>
+<span class="bottom"></span>
+</div>
+</div>
+<div id="home"></div>
+<section id="" class="section modular-hero hero title-h1h2 overlay-dark parallax hero-large " style="background-image: url('assets/images/desktop.png');">
+<div class="image-overlay"></div>
+<section class="container grid-lg" style="text-align: center">
+<h1>Introducing <strong>Dragon Linux</strong></h1>
+<h3>Dragon Linux aims to bring you a Dragon themed Linux® experience.</h3>
+</section>
+<i id="to-start" class="pulse fa fa-angle-down"></i>
+</section>
+<section id="start">
+<div id="what-is-dragon-linux"></div>
+<section class="section modular-text  bg-gray">
+<section class="container grid-lg">
+<div class="columns left">
+<div class="column col-6 col-md-12">
+<h2>What is <strong>Dragon Linux</strong>?</h2>
+<ul>
+<li>Dragon Linux is a project with the goal of making a simple and easy to use Linux experience with support for various hardware from all kinds of life.</li>
+</ul>
+<h2>Why should I use <strong>Dragon Linux</strong>?</h2>
+<ul>
+<li>With Ubuntu’s excellent software and hardware support, you can expect a solid and high-quality experience without any unwanted surprises. Dragon Linux is based on Ubuntu Linux 25, the latest Ubuntu Linux release with the newest software versions across the board. We support most AMD and Intel CPU’s.</li>
+</ul>
+</div>
+<div class="column col-6 col-md-12" style="
+    display: flex;
+    justify-content: flex-end; /* pushes the image to the right */
+    align-items: flex-start;   /* start from top */
+    height: 500px;             /* height of the container */
+    padding-top: 30px;         /* less padding moves image higher */
+">
+  <img src="assets/images/desktop.png" alt="Desktop Image" style="
+    max-width: 130%;
+    height: 110%;
+    margin-right: 50px;       /* keeps it further to the right */
+  " />
+</div>
+</div>
+</div>
+</section>
+</section>
+<div id="features"></div>
+<section class="section modular-features standard">
+<section class="container grid-lg">
+<div class="frame-box">
+<div class="columns">
+<div class="column col-4 col-md-6 col-sm-12">
+<div class="feature-icon">
+<i class="fa fa-fw fa fa-solid fa-wand-magic-sparkles"></i>
+</div>
+<br>
+<div class="feature-content">
+<p>Dragon Linux offers a seamless and carefree expierence.</p>
+</div>
+</div>
+<div class="column col-4 col-md-6 col-sm-12">
+<div class="feature-icon">
+<i class="fa fa-fw fa fa-regular fa-dragon"></i>
+</div>
+<div class="feature-content">
+<br>
+<p>The most Dragonified Linux® to exist.</p>
+</div>
+</div>
+<div class="column col-4 col-md-6 col-sm-12">
+<div class="feature-icon">
+<i class="fa fa-fw fa fa-regular fa-desktop"></i>
+</div>
+<div class="feature-content">
+<br>
+<p>Dragon Linux comes out of the box with all of the essentials, and a whole LOT more!</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<div id="download-now"></div>
+<section class="section modular-text  bg-gray">
+<section class="container grid-lg">
+<div class="columns right">
+<div class="column col-6 col-md-12">
+<h4>Now, what are you waiting for?!?</h4>
+<h3>Download Dragon Linux <strong>NOW</strong> ¹ ²</h3>
+<p><br></br>
+<a href="https://sourceforge.net/projects/sujix-linux/files/latest/download"><img title="dragondownload" alt="dragondownload" src="assets/images/dragondownload.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://discord.go.venith.net"><img title="dragondownload" alt="dragondownload" src="assets/images/venith.png" /></a></p>
+<p>&nbsp; <a href="https://sourceforge.net/projects/sujix-linux/files/latest/download">Download Today!</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://discord.go.venith.net">Join Our Discord Today!</a>
+<br></br><br></br><br></br>
+¹ experience dragon linux today!!
+<br></br>
+² if you need support or just want to chat with our technology hangout join our discord today!</p>
+</div>
+<div class="column col-6 col-md-12">
+<a href="https://dragoonsden.venith.net" target="_blank" rel="noopener noreferrer">
+  <img src="assets/images/metalseadramon-digimon.gif" alt="MetalSeadramon">
+</a>
+</div>
+</div>
+</section>
+</section>
+</section>
+</div>
+<section id="footer" class="section bg-gray">
+<section class="container grid-lg">
+<div class="theme-switch">
+   			<div class="switch"></div>
+  		</div>
+<p style="float: center"><a href="https://www.venith.net">© 2025 - Powered By The Venith Network</a></center></br></p>
+</section>
+</section>
+<div class="mobile-container">
+<div class="overlay" id="overlay">
+<div class="mobile-logo">
+<a href="index.html" class="navbar-brand mr-10">
+<img src="assets/images/favicon.png" alt="Dragon Linux" />
+</a>
+</div>
+<nav class="overlay-menu">
+<ul class="tree">
+</ul>
+</nav>
+</div>
+</div>
+<script src="assets/js/jquery.treemenu.js"></script>
+<script src="assets/js/site.js"></script>
+<script>
+        // singlePageNav initialization & configuration
+        $('ul.navigation').singlePageNav({
+            offset: $('#header').outerHeight(),
+            filter: ':not(.external)',
+            updateHash: true,
+            currentClass: 'active'
+        });
+</script>
+</body>
+</html>

@@ -1,5 +1,5 @@
  <p align="center">
-  <img src="static/img/merge/dragon.jpeg" alt="Dragon Linux Logo" width="250" />
+  <img src="assets/images/dragon.jpeg" alt="Dragon Linux Logo" width="250" />
 </p>
 
 # Dragon Linux

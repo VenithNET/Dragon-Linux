@@ -34,7 +34,7 @@ Dragon Linux is a [unoffical remix of Ubuntu Linux](/ubuntu), and serves as both
 
 ## How will this be released?
 
-All development takes place on GitHub, [github.com/VenithNET](https://github.com/VenithNET). We write our contributions with the intent to upstream them into the respective upstream projects. Code will be dual-licensed as the upstream license (e.g. GPL) and a permissive license (e.g. MIT), to ensure that the work can be reused in other OSes where possible.
+All development takes place on GitHub, [github.com/VeltronNET](https://github.com/VeltronNET). We write our contributions with the intent to upstream them into the respective upstream projects. Code will be dual-licensed as the upstream license (e.g. GPL) and a permissive license (e.g. MIT), to ensure that the work can be reused in other OSes where possible.
 
 ## Who is working on Dragon Linux?
 
@@ -42,4 +42,4 @@ Dragon Linux is a community, and everyone is invited to contribute. If you are i
 
 Current major contributors are:
 
-* [Matthew Pitsicalis](https://home.venith.net/), the founder of Dragon Linux. Matthew is a Linux nerd known for his work on various projects.
+* [Matthew Pitsicalis](https://home.veltron.net/), the founder of Dragon Linux. Matthew is a Linux nerd known for his work on various projects.
